@@ -1,0 +1,12 @@
+﻿body{background: url(/images/bg.png);color: #333;font-family: Segoe, "Segoe UI Light", "Helvetica Neue", Arial, sans-serif}
+
+/*TITLE*/
+header{text-align:center;width: 840px;margin:auto;}
+h1.title, h1.title a, h1.title a:visited{font-size:48px;text-shadow: 2px 2px 2px #ddd;color:#333;text-decoration:none;text-align:center;margin:10px;}
+span.subtitle{margin-top:0;text-align:center;text-shadow: 1px 1px 1px #CCC;}
+
+/*CONTAINER*/
+div.container{width: 840px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
+
+/*ULTIMO POST*/
+div.home_post{text-align:center;padding: 15px;}
