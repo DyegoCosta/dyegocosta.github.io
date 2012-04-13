@@ -1,4 +1,4 @@
-﻿body{background: url(/images/bg.png);color: #333;font-family: Segoe, "Segoe UI", "Helvetica Neue", Arial, sans-serif;font-weight: lighter;}
+﻿body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI";font-weight: lighter;}
 
 /*TITLE*/
 header{text-align:center;width: 840px;margin:auto;}
@@ -16,3 +16,4 @@ h2.post_title{margin-top:20px}
 h2.post_title, h2.post_title a{text-align:left !important;text-decoration:none;color:#36BCAB;}
 div.post_date{text-align:left !important;}
 div.post_content{text-align:left !important;}
+
