@@ -2,12 +2,12 @@
 layout: default
 ---
 <div id="post">
-	<h2 class="post_title">{{ page.title}}</h2>
-    <hr/>
-	<p class="post-date">
+	<h2 class="post_title">{{ page.title}}</h2>    	
+	<div class="post_date">
         <span class="date">{{ page.date | date: "%d/%m/%Y" }}</span>
-    </p>
-	<p></p>
-	{{ content }}
+    </div>
+	<div class="post_content">
+		{{ content }}
+	</div>
     <h3><a href="/">Voltar</a></h3>
 </div>
