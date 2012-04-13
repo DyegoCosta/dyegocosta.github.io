@@ -2,9 +2,14 @@
 layout: default
 title: Dyego Costa
 ---
-{% assign p = site.posts.first %}
+{% for post in site.posts limit:5  offset:0 %}
 <div id="post">
-  <h2 class="post_title"><a href="{{ p.url }}">{{ p.title}}</a></h2>
-  <hr/>
-  {{ p.content }}
+  <h2 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h2>    
+  <div class="post_date">
+        <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+    </div>
+  <div class="post_content">
+	{{ post.content | truncate: 450 }} <a href="{{ post.url }}">Continue lendo</a>
+  </div>
 </div>
+{% endfor %}
