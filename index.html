@@ -2,4 +2,9 @@
 layout: default
 title: Dyego Costa
 ---
-boo!
+{% assign p = site.posts.first %}
+<div id="post">
+  <h2 class="post_title"><a href="{{ p.url }}">{{ p.title}}</a></h2>
+  <hr/>
+  {{ p.content }}
+</div>
