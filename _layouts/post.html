@@ -16,21 +16,21 @@ layout: default
 	<!-- START: Livefyre Embed -->
 	<script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js'></script>
 	<script type='text/javascript'>
-		var article_id = "{{ page.article_id }}";
+		//var article_id = "{{ page.article_id }}";
 		
-		var conv_meta = {
-        article_url: "http://dyegocosta.com/blog/terceiro-post",
-        title: "{{ page.title }}"
-		};
+		//var conv_meta = {
+        //article_url: "http://dyegocosta.com/blog/terceiro-post",
+        //title: "{{ page.title }}"
+		//};
 		
-		var sig = LF.Secure.createSig(article_id, "301845", conv_meta);
-		conv_meta['sig'] = sig;
+		//var sig = LF.Secure.createSig(article_id, "301845", conv_meta);
+		//conv_meta['sig'] = sig;
 	
 		var fyre = LF({
-			domain: "dyegocosta.com",
+			//domain: "dyegocosta.com",
 			site_id: 301845,
-			article_id: article_id,
-			conv_meta: conv_meta
+			//article_id: article_id,
+			//conv_meta: conv_meta
 		});
 	</script>
 	<!-- END: Livefyre Embed -->
