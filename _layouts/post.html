@@ -5,7 +5,7 @@ layout: default
 	<h2 class="post_title">{{ page.title}}</h2>    	
 	<div class="post_date">
         <span class="date">{{ page.date | date: "%d/%m/%Y" }}</span> - 
-		<span class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{ page.article-id }}">0 Comments</span>
+		<span class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{ page.article_id }}">0 Comments</span>
     </div>
 	<div class="post_content">
 		{{ content }}
@@ -17,9 +17,9 @@ layout: default
 	<script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js'></script>
 	<script type='text/javascript'>
 		var fyre = LF({
-			domain: "dyegocosta.com"
+			domain: "dyegocosta.com",
 			site_id: 301845,
-			article_id: "{{ page.article-id }}"
+			article_id: "{{ page.article_id }}"
 		});
 	</script>
 	<!-- END: Livefyre Embed -->
