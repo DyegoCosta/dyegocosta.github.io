@@ -1,4 +1,4 @@
-﻿body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI Light";font-weight: lighter;}
+﻿body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;font-weight: 100;}
 
 /*TITLE*/
 header{text-align:center;width: 840px;margin:auto;}
@@ -6,16 +6,18 @@ h1.title, h1.title a, h1.title a:visited{font-size:48px;text-shadow: 2px 2px 2px
 span.subtitle{margin-top:0;text-shadow: 1px 1px 1px #CCC;}
 
 /*CONTAINER*/
-div.container{background-color:White;width: 840px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
+div.container{box-shadow:0 25px 75px rgba(0,0,0,.3); background-color:White;width: 840px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
 
 /*HOME*/
-div.home_post{text-align:center;padding: 15px;}
+div.home_posts{padding: 15px;}
 a.continue_lendo{color: #36BCAB;text-decoration:none;}
 a.continue_lendo:hover{text-decoration:underline;}
 
 /*POST*/
+div.single_post{padding:15px;}
 h2.post_title{margin:20px 0px 0px;}
-h2.post_title, h2.post_title a{text-align:left !important;text-decoration:none;color:#36BCAB;}
-div.post_date{text-align:left !important;}
-div.post_content{text-align:left !important;}
+h2.post_title, h2.post_title a{text-decoration:none;color:#36BCAB;}
 span.date{font-size:13px;}
+
+/*CONTACT*/
+div.contact_fixed{left:0.7%;top:200px;position:fixed;height:150px;width:19px;margin-left:1043px;background-color:Red;}
