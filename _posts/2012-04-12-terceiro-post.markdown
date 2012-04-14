@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: 'Terceiro post'
+article-id: 'terceiropost'
 tags: 
 - title: Boring
   slug: boring
