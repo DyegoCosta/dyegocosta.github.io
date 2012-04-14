@@ -1,4 +1,4 @@
-﻿body{background: url(/images/bg.png);color: #333;font-family: Segoe, "Segoe UI Light", "Helvetica Neue", Arial, sans-serif}
+﻿body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI";font-weight: lighter;}
 
 /*TITLE*/
 header{text-align:center;width: 840px;margin:auto;}
@@ -16,6 +16,10 @@ h2.post_title{margin:20px 0px 0px;}
 h2.post_title, h2.post_title a{text-align:left !important;text-decoration:none;color:#36BCAB;}
 div.post_date{text-align:left !important;}
 div.post_content{text-align:left !important;}
+<<<<<<< HEAD
 a.continue_lendo{color: #36BCAB;text-decoration:none;}
 a.continue_lendo:hover{text-decoration:underline;}
 span.date{font-size:13px;}
+=======
+
+>>>>>>> ff0ae82aa59f799f4d16ad3f36a8b2d521889512
