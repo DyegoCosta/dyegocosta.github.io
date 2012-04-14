@@ -6,13 +6,16 @@ h1.title, h1.title a, h1.title a:visited{font-size:48px;text-shadow: 2px 2px 2px
 span.subtitle{margin-top:0;text-shadow: 1px 1px 1px #CCC;}
 
 /*CONTAINER*/
-div.container{width: 840px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
+div.container{background-color:White;width: 840px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
 
 /*ULTIMO POST*/
 div.home_post{text-align:center;padding: 15px;}
 
 /*POST*/
-h2.post_title{margin-top:20px}
+h2.post_title{margin:20px 0px 0px;}
 h2.post_title, h2.post_title a{text-align:left !important;text-decoration:none;color:#36BCAB;}
 div.post_date{text-align:left !important;}
 div.post_content{text-align:left !important;}
+a.continue_lendo{color: #36BCAB;text-decoration:none;}
+a.continue_lendo:hover{text-decoration:underline;}
+span.date{font-size:13px;}
