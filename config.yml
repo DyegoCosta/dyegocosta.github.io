@@ -1,7 +1,0 @@
-pygments: true
-markdown: rdiscount
-permalink: /blog/:categories/:title/
-comments :
-  provider : livefyre  
-  livefyre :
-    site_id : 301845
