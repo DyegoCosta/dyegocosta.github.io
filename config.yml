@@ -1,6 +1,6 @@
 pygments: true
 markdown: rdiscount
-permalink: /blog/:title
+permalink: /blog/:categories/:title/
 comments :
   provider : livefyre  
   livefyre :
