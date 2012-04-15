@@ -15,11 +15,102 @@
 				<h1 class="title"><a href="/">Dyego Costa</a></h1>
 				<span class="title_contents">{ .NET, pr&aacute;ticas, metodologias, novidades, princ&iacute;pios }</span>
 			</header>
-			<div class="container">			
-				{{content}}						
+			<div class="container">	
+				<div id="content">
+					{{content}}									
+				</div>
+				<footer>
+					<div id="all_categories">
+						<h3 class="widget_title">Categorias</h3>
+						<ul>
+						{% for category in site.categories %}
+							<li>
+								<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
+							</li>
+						{% endfor %}
+						</ul>
+					</div>
+					<div id="all_tags">
+						<h3 class="widget_title">Tags</h3>
+						<!--<ul>
+						{% for tag in site.tags %}
+							<li>
+							<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
+							</li>
+						{% endfor %}
+						</ul>-->
+						<ul>      
+							<li>
+							<a href="/tags/mono">Mono</a>
+							</li>
+						
+							<li>
+							<a href="/tags/asp-net-mvc-3">ASP.NET MVC 3</a>
+							</li>
+						
+							<li>
+							<a href="/tags/script">script</a>
+							</li>
+						
+							<li>
+							<a href="/tags/jquery">JQuery</a>
+							</li>
+						
+							<li>
+							<a href="/tags/domain-driven-design">Domain Driven Design</a>
+							</li>
+						
+							<li>
+							<a href="/tags/paralelismo">Paralelismo</a>
+							</li>
+						
+							<li>
+							<a href="/tags/expression-blend">Expression Blend</a>
+							</li>
+						
+							<li>
+							<a href="/tags/palestras">Palestras</a>
+							</li>
+						
+							<li>
+							<a href="/tags/modelview">ModelView</a>
+							</li>
+						
+							<li>
+							<a href="/tags/proc">Proc</a>
+							</li>
+						
+							<li>
+							<a href="/tags/asp-net-mvc-tdd">ASP.NET MVC TDD</a>
+							</li>
+						
+							<li>
+							<a href="/tags/mvvm">MVVM</a>
+							</li>
+						
+							<li>
+							<a href="/tags/agile">Agile</a>
+							</li>
+						
+							<li>
+							<a href="/tags/juntar-listas">juntar listas</a>
+							</li>
+						
+							<li>
+							<a href="/tags/gerenciador-pacotes">Gerenciador Pacotes</a>
+							</li>
+						
+							<li>
+							<a href="/tags/testes-metodos-privados">Testes métodos privados</a>
+							</li>
+						
+							<li>
+							<a href="/tags/dynamicobject">DynamicObject</a>
+							</li>            
+						</ul>
+					</div>
+				</footer>
 			</div>		
-			<footer>
-			</footer>
 		</div>
 		<!--<div class="contact_fixed">
 			

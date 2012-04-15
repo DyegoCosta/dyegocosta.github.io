@@ -1,10 +1,7 @@
 --- 
 layout: post
 title: 'Quinto post'
-tags: 
-- title: Boring
-  slug: boring
-  autoslug: boring  
+tags: ['tag1', 'tag2', 'tag3']
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin velit tellus, scelerisque sed luctus sed, consequat quis ante. Morbi et augue et sapien eleifend placerat sit amet et erat. Vestibulum nec tincidunt metus. Phasellus vitae sagittis est. Ut arcu sem, porta nec tristique sed, facilisis tincidunt urna. Nulla sit amet elit neque. Nullam eros nunc, pellentesque accumsan tempus sed, eleifend nec quam. Nam id enim nec elit tristique tempor vel sit amet nunc. Sed scelerisque, nunc a vulputate consequat, risus felis dictum velit, ut malesuada diam arcu vel mauris. Maecenas a elit at felis gravida convallis ut at mauris. Maecenas eget nisl mauris. Aliquam erat volutpat. Nullam quis purus at massa rhoncus facilisis.
 

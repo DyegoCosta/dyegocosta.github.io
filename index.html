@@ -5,14 +5,14 @@ title: Dyego Costa
 <div class="home_posts">
 	{% for post in site.posts limit:3  offset:0 %}
 	<div id="post">
-	<h2 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h2>    
-	<div class="post_date">
-			<span class="date">{{ post.date | date: "%d/%m/%Y" }}</span> - 
-			<span class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{ post.article_id }}">0 Comentários</span>
+		<h2 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h2>    
+		<div class="index_meta">
+			<div class="post_date">{{ post.date | date: "%d/%m/%Y" }}</div>
+			<div class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{ post.article_id }}">0 Comentários</div>			
 		</div>
-	<div class="post_content">
-		{{ post.content | truncate: 450 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
-	</div>
+		<div class="post_content">
+			{{ post.content | truncate: 450 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
+		</div>
 	</div>
 	{% endfor %}
 </div>
