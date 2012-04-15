@@ -1,7 +1,8 @@
 ﻿/*SHARED*/
 body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;font-weight: 100;}
 a{color: #36BCAB;text-decoration:none;}
-a:hover{ text-decoration: none; border-bottom:1px dotted; }
+a:hover{text-decoration: none; border-bottom:1px dotted;}
+.dsq-pagination{display:none;}
 
 /*HEADER*/
 header{text-align:center;width: 840px;margin:auto;}
@@ -23,6 +24,7 @@ div.livefyre-commentcount{background:url("/images/commentsIcon.gif") no-repeat s
 div.single_post{padding:15px;}
 h2.post_title{margin:20px 0px 0px;}
 h2.post_title, h2.post_title a{text-decoration:none;color:#36BCAB;}
+div.coments{padding:0 15px 0 15px;}
 
 /*CONTACT*/
 div.contact_fixed{left:0.7%;top:200px;position:fixed;height:150px;width:19px;margin-left:1043px;background-color:Red;}
