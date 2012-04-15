@@ -13,6 +13,35 @@ layout: default
     <h3><a href="/">Voltar</a></h3>
 </div>
 <div id="comments">
+	<span class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{page.id}}">0 Comments</span>
+	<!-- START: Livefyre Embed -->
+	<script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js'></script>
+	<script type="text/javascript" src="http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre.js"></script>
+	<script type="text/javascript" src="http://www.livefyre.com/wjs/v1.0/javascripts/Secure.js"></script>
+	<script type="text/javascript">
+		var article_id = {{page.id}};
+		var conv_meta = {
+			article_url: {{site.url}}{{page.url}},
+			title: {{page.title}}
+		};
+		var sig = LF.Secure.createSig(article_id, "301845", conv_meta);
+		conv_meta['sig'] = sig;
+	
+		var fyre = LF({
+			domain: "dyegocosta.com",
+			article_id: article_id,
+			site_id: {site_id},
+			conv_meta: conv_meta
+		});
+	</script>
+	<script type="text/javascript">
+		LF.CommentCount({
+			replacer: function(element, count) {
+				element.innerHTML = count +' Comment'+ (count === 1 ? '' : 's');
+			}
+		});
+	</script>
+	<!-- END: Livefyre Embed -->
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">		
 		var disqus_shortname = 'dyegocosta';
@@ -23,6 +52,6 @@ layout: default
 			dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
 			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 		})();
-	</script>
+	</script>	
 	<noscript>Por favor ative o Javascript de seu navegador para poder visualizar os <a href="http://disqus.com/?ref_noscript">comentários do post via Disqus.</a></noscript>
 </div>
