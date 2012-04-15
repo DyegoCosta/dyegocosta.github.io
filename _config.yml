@@ -2,6 +2,6 @@ pygments: true
 markdown: rdiscount
 permalink: /blog/:title/
 comments :
-  provider : livefyre  
-  livefyre :
-    site_id : 301845
+  provider : disqus  
+  disqus :
+    short_name : dyegocosta

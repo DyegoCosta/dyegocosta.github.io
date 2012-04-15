@@ -2,10 +2,11 @@
 body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;font-weight: 100;}
 a{color: #36BCAB;text-decoration:none;}
 a:hover{text-decoration: none; border-bottom:1px dotted;}
+.disqus-count-text { display: none; }
 
 /*HEADER*/
 header{text-align:center;width: 840px;margin:auto;}
-h1.title, h1.title a, h1.title a:visited{font-size:48px;text-shadow: 2px 2px 2px #ddd;color:#333;text-decoration:none;margin:10px;}
+h1.title, h1.title a, h1.title a:visited, h1.title a:hover{font-size:48px;text-shadow: 2px 2px 2px #ddd;color:#333;text-decoration:none;margin:10px;border:none;}
 span.subtitle{margin-top:0;text-shadow: 1px 1px 1px #CCC;}
 
 /*CONTAINER*/
@@ -23,6 +24,7 @@ div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scr
 div.single_post{padding:15px;}
 h2.post_title{margin:20px 0px 0px;}
 h2.post_title, h2.post_title a{text-decoration:none;color:#36BCAB;}
+div.post_comments_count a{color:#333}
 div#dsq-subscribe{display:none;}
 div#comments{padding:0 15px 0 15px;}
 

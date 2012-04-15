@@ -2,11 +2,11 @@
 layout: default
 ---
 <div id="post" class="single_post">
-	<h2 class="post_title">{{ page.title}}</h2>    	
+	<h2 class="post_title">{{ page.title}}</h2>    		
 	<div class="index_meta">
 		<div class="post_date">{{ page.date | date: "%d/%m/%Y" }}</div>
-		<div class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{ post.article_id }}">0 Comentários</div>			
-	</div>
+		<div class="post_comments_count"><a href="{{page.url}}#disqus_thread" data-disqus-identifier="{{page.article_id}}">Deixe um comentário</a></div>			
+	</div>	
 	<div class="post_content">
 		{{ content }}
 	</div>
@@ -24,5 +24,5 @@ layout: default
 			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 		})();
 	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<noscript>Por favor ative o Javascript de seu navegador para poder visualizar os <a href="http://disqus.com/?ref_noscript">comentários do post via Disqus.</a></noscript>
 </div>
