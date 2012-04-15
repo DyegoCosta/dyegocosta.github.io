@@ -2,7 +2,6 @@
 body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;font-weight: 100;}
 a{color: #36BCAB;text-decoration:none;}
 a:hover{text-decoration: none; border-bottom:1px dotted;}
-.dsq-pagination{display:none;}
 
 /*HEADER*/
 header{text-align:center;width: 840px;margin:auto;}
@@ -18,12 +17,13 @@ div.index_meta{display:inline-block;width:600px;height:30px;padding: 3px 0 0 3px
 div.index_meta div {float:left;margin-right: 35px;padding-left:20px;}
 span.index_meta{font-size:13px;}
 div.post_date{background:url("/images/dateIcon.gif") no-repeat scroll left 5px transparent;}
-div.livefyre-commentcount{background:url("/images/commentsIcon.gif") no-repeat scroll left 5px transparent;}
+div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scroll left 5px transparent;}
 
 /*POST*/
 div.single_post{padding:15px;}
 h2.post_title{margin:20px 0px 0px;}
 h2.post_title, h2.post_title a{text-decoration:none;color:#36BCAB;}
+div#dsq-subscribe{display:none;}
 div#comments{padding:0 15px 0 15px;}
 
 /*CONTACT*/
