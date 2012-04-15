@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: 'Sexto post'
+article_id: '2'
 categories: 
 - R
 - math
