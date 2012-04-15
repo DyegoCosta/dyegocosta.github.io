@@ -3,10 +3,10 @@ layout: default
 ---
 <div id="post" class="single_post">
 	<h2 class="post_title">{{ page.title}}</h2>    	
-	<div class="post_date">
-        <span class="date">{{ page.date | date: "%d/%m/%Y" }}</span> - 
-		<span class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{ page.article_id }}">0 Comments</span>
-    </div>
+	<div class="index_meta">
+		<div class="post_date">{{ page.date | date: "%d/%m/%Y" }}</div>
+		<div class="livefyre-commentcount" data-lf-site-id="301845" data-lf-article-id="{{ post.article_id }}">0 Comentários</div>			
+	</div>
 	<div class="post_content">
 		{{ content }}
 	</div>
