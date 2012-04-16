@@ -29,7 +29,24 @@ div#dsq-subscribe{display:none;}
 div#comments{padding:0 15px 0 15px;}
 
 /*CONTACT*/
-div.contact_fixed{left:0.7%;top:200px;position:fixed;height:150px;width:19px;margin-left:1043px;background-color:Red;}
+div.contact_fixed{left:50%;top:200px;position:fixed;margin-left: 420px;height:150px;width:19px;z-index:5;}
+
+/*CONTACT STYLE 1
+.contact_fixed a:hover{border:none;text-transform:uppercase;}
+.contact_fixed a span{display:block;visibility:hidden;min-width:152px;}
+.contact_fixed a {background:url("/images/soc-icons.png") no-repeat scroll 0 0 transparent;display: block;font-size: 10px;font-weight: 700;height: 20px;line-height: 20px;margin-left: 133px;overflow: hidden;position: absolute;right: 0;text-decoration: none;text-transform: uppercase;width: 19px;}
+.contact_fixed a.soc-me {background-color: #526CA5;background-position: 3px -15px;top: 20px;}
+.contact_fixed a.soc-twitter {background-color: #75DDFE;background-position: 3px -36px;top: 40px;}
+.contact_fixed a.soc-github {background-color: #C1C1C2;background-position: 3px -75px;top: 80px;}
+.contact_fixed a.soc-rss {background-color: #F6A858;background-position: 3px -55px;top: 60px;}
+
+/*CONTACT STYLE 2*/
+.contact_fixed a{color:white;padding:0 2px 0 2px;}
+.contact_fixed a:hover{border:none;}
+.contact_fixed a.soc-me{background-color:rgba(0, 100, 0, 0.4);}
+.contact_fixed a.soc-twitter{background-color:rgba(117, 221, 254, 0.4);}
+.contact_fixed a.soc-github{background-color:rgba(0, 0, 0, 0.4);}
+.contact_fixed a.soc-rss{background-color:rgba(246, 168, 88, 0.4);}
 
 /*FOOTER*/
 footer{padding: 0 25px 45px;display:inline-block;}
