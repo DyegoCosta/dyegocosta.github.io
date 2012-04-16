@@ -3,7 +3,7 @@ body{background: url(/images/bg.png);color: #333;font-family: "Segoe UI Light", 
 a{color: #36BCAB;text-decoration:none;}
 a:hover{text-decoration: none; border-bottom:1px dotted;}
 .disqus-count-text { display: none; }
-.addthis_toolbox{border:none;}
+.addthis_toolbox a{border:none;}
 
 /*HEADER*/
 header{text-align:center;width: 840px;margin:auto;}
