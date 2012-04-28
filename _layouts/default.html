@@ -18,10 +18,11 @@
 					{{content}}									
 					
 					<div class="contact_fixed">
-						<a href="http://dyegocosta.com/about" class="soc-me"><span>Eu</span></a>
-						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>
-						<a href="http://github.com/DyegoCosta" target="_blank" class="soc-github"><span>GitHub</span></a>
-						<a href="http://dyegocosta.com/atom.xml" target="_blank" class="soc-rss"><span>RSS Feed</span></a>						
+						<a href="/about" class="soc-eu"><span>Eu</span></a>
+						<a href="http://facebook.com/dyego.costa" class="soc-facebook"><span>Facebook</span></a>
+						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
+						<a href="http://dyegocosta.com/atom.xml" target="_blank" class="soc-rss"><span>RSS Feed</span></a>			
+						<a href="mailto:dyego.costa@live.com" target="_blank" class="soc-mail"><span>dyego.costa@live.com</span></a>						
 					</div>
 				</div>				
 				<footer>
@@ -37,48 +38,24 @@
 					</div>
 					<div id="all_tags">
 						<h3 class="widget_title">Tags</h3>
-						<!--<ul>
+						<ul>
 						{% for tag in site.tags %}
 							<li>
 							<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
 							</li>
 						{% endfor %}
-						</ul>-->
-						<ul>      
-							<li>
-							<a href="/tags/mono">Lorem ipsum</a>
-							</li>
-						
-							<li>
-							<a href="/tags/mono">Lorem ipsum</a>
-							</li>
-						
-							<li>
-							<a href="/tags/mono">Lorem ipsum</a>
-							</li>
-						
-							<li>
-							<a href="/tags/mono">Lorem ipsum</a>
-							</li>
-						
-							<li>
-							<a href="/tags/mono">Lorem ipsum</a>
-							</li>
-						
-							<li>
-							<a href="/tags/mono">Lorem ipsum</a>
-							</li>											
-						</ul>
+						</ul>						
 					</div>
 				</footer>				
 			</div>			
-		</div>		
-		<a href="http://github.com/dyegocosta/dyegocosta.github.com"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+		</div>				
+		<a href="http://github.com/dyegocosta/dyegocosta.github.com"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
 		<script type="text/javascript">			
 			var disqus_shortname = 'dyegocosta';
 					
 			(function () {
-				var s = document.createElement('script'); s.async = true;
+				var s = document.createElement('script'); 
+				s.async = true;
 				s.type = 'text/javascript';
 				s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
 				(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);

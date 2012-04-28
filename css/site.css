@@ -36,9 +36,10 @@ div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:420px;height:150
 .contact_fixed a:hover{border:none;}
 .contact_fixed a span{display:block;visibility:hidden;min-width:152px;text-transform:uppercase;font-weight:700;font-size:10px;color:#FFFFFF;}
 .contact_fixed a {background:url("/images/soc-icons.png") no-repeat scroll 0 0 transparent;display:block;font-size:10px;font-weight:700;height:20px;line-height:20px;margin-left:133px;overflow:hidden;position:absolute;right:0;text-decoration:none;text-transform:uppercase;width:19px;}
-.contact_fixed a.soc-me {background-color:#008000;background-position:3px -16px;top:20px;}
+.contact_fixed a.soc-eu {background-color:#008000;background-position:3px 4px;top:0px;}
+.contact_fixed a.soc-facebook {background-color:#526CA5;background-position:3px -15px;top:20px;}
 .contact_fixed a.soc-twitter {background-color:#75DDFE;background-position:3px -36px;top:40px;}
-.contact_fixed a.soc-github {background-color:#000000;background-position:3px -73px;top:80px;}
+.contact_fixed a.soc-mail {background-color:#C1C1C2;background-position:3px -75px;top:80px;}
 .contact_fixed a.soc-rss {background-color:#F6A858;background-position:3px -55px;top:60px;}
 .contact_fixed a:hover { -webkit-transition:all .2s ease-in-out;-moz-transition:all 0.1s ease-in-out 0s;-o-transition:all .2s ease-in-out;min-width:133px;padding-left:25px;}
 .contact_fixed a:hover span {left:25px;position:absolute;top:0;visibility:visible;}

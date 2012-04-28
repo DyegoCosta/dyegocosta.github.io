@@ -2,6 +2,9 @@
 layout: post
 title: 'Sexto post'
 article_id: '2'
+tags:
+- tag1
+- ta2
 categories: 
 - R
 - math
