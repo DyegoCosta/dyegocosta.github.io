@@ -12,25 +12,24 @@ span.subtitle{margin-top:0;text-shadow:1px 1px 1px #CCC;}
 
 /*CONTAINER*/
 div.container{position:relative;box-shadow:0 25px 75px rgba(0,0,0,.3); background-color:White;width:840px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
+div.page{padding:20px;}
 
 /*HOME*/
-div.home_posts{padding:15px;}
 div.index_meta{display:inline-block;width:600px;height:30px;padding:3px 0 0 3px;}
 div.index_meta div {float:left;margin-right:35px;padding-left:20px;}
 span.index_meta{font-size:13px;}
 div.post_date{background:url("/images/dateIcon.gif") no-repeat scroll left 5px transparent;}
 div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scroll left 5px transparent;}
+div.post_content p{margin:0px 0px 20px;}
 
 /*POST*/
-div.single_post{padding:15px;}
-h2.post_title{margin:20px 0px 0px;}
-h2.post_title, h2.post_title a{text-decoration:none;color:#36BCAB;}
+h1.post_title{margin:20px 0px 0px;}
+h1.post_title, h1.post_title a{text-decoration:none;color:#36BCAB;}
 div.post_comments_count a{color:#333}
 div#dsq-subscribe{display:none;}
 div#comments{padding:0 15px 0 15px;}
 
 /*CONTACT*/
-<<<<<<< HEAD
 div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:420px;height:150px;width:19px;z-index:5;}
 
 /*CONTACT STYLE 1*/
@@ -44,18 +43,6 @@ div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:420px;height:150
 .contact_fixed a.soc-rss {background-color:#F6A858;background-position:3px -55px;top:60px;}
 .contact_fixed a:hover { -webkit-transition:all .2s ease-in-out;-moz-transition:all 0.1s ease-in-out 0s;-o-transition:all .2s ease-in-out;min-width:133px;padding-left:25px;}
 .contact_fixed a:hover span {left:25px;position:absolute;top:0;visibility:visible;}
-=======
-div.contact_fixed{left:50%;top:200px;position:fixed;margin-left: 420px;height:150px;width:19px;z-index:5;}
-
-/*CONTACT STYLE 1*/
-.contact_fixed a:hover{border:none;text-transform:uppercase;}
-.contact_fixed a span{display:block;visibility:hidden;min-width:152px;}
-.contact_fixed a {background:url("/images/soc-icons.png") no-repeat scroll 0 0 transparent;display: block;font-size: 10px;font-weight: 700;height: 20px;line-height: 20px;margin-left: 133px;overflow: hidden;position: absolute;right: 0;text-decoration: none;text-transform: uppercase;width: 19px;}
-.contact_fixed a.soc-me {background-color: #526CA5;background-position: 3px -15px;top: 20px;}
-.contact_fixed a.soc-twitter {background-color: #75DDFE;background-position: 3px -36px;top: 40px;}
-.contact_fixed a.soc-github {background-color: #C1C1C2;background-position: 3px -75px;top: 80px;}
-.contact_fixed a.soc-rss {background-color: #F6A858;background-position: 3px -55px;top: 60px;}
->>>>>>> d85afe0edf1eec0eb4cc4bfd8d3472ce8a799473
 
 /*CONTACT STYLE 2
 .contact_fixed a{color:white;padding:0 2px 0 2px;}

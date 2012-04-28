@@ -15,8 +15,9 @@
 			</header>			
 			<div class="container">	
 				<div id="content">
-					{{content}}									
-					
+					<div class="page">
+						{{content}}									
+					</div>
 					<div class="contact_fixed">
 						<a href="/about" class="soc-eu"><span>Eu</span></a>
 						<a href="http://facebook.com/dyego.costa" class="soc-facebook"><span>Facebook</span></a>
@@ -41,7 +42,7 @@
 						<ul>
 						{% for tag in site.tags %}
 							<li>
-							<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
+								<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
 							</li>
 						{% endfor %}
 						</ul>						

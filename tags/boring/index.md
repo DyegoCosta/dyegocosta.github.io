@@ -1,14 +1,20 @@
 ---
 layout: default
 title: Posts tagged boring
-keywords: [boring]
+tag: Boring
 ---
-<h2 class="category">Boring</h2>
+<h1 class="category">Boring</h1>
 <ul class="posts">
-<li>
-<p>
-<span class="date">20/08/2010</span> &raquo; 
-<a href="/blog/2012-04-12-juro-solenemente-nao-fazer-nada-de-bom">Juro solenemente n\xC3\xA3o fazer nada de bom</a>
-</p>
-</li> 
+	{% for post in site.posts %}				
+	{% for tag in post.tags %}	
+	{% if tag.title == page.tag %}	
+	<li>
+		<p>
+			<span>{{ post.date | date: "%d/%m/%Y" }}</span> &raquo; 
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</p>
+	</li>
+	{% endif %}	
+	{% endfor %}
+	{% endfor %}
 </ul>
