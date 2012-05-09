@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Posts tagged boring
-tag: Boring
+title: Posts com a categoria OOP
+category: oop
 ---
-<h1 class="category">Boring</h1>
+<h2 class="category">OOP</h2>
 <ul class="posts">
 	{% for post in site.posts %}				
-	{% for tag in post.tags %}	
-	{% if tag.title == page.tag %}	
+	{% for category in post.categories %}	
+	{% if category.title == page.category %}	
 	<li>
 		<p>
 			<span>{{ post.date | date: "%d/%m/%Y" }}</span> &raquo; 
