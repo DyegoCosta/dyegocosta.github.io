@@ -10,11 +10,11 @@ tags:
 - title: OOP
   slug: oop
 ---
+
 Se a maioria dos programadores estivessem cientes desses princípios, com certeza o mundo seria um lugar melhor.
 Os princípios SOLID são cinco princípios, ou práticas, de programação orientada a objetos e design que foram introduzidos em um acrônimo por [Robert Cecil Martin][uncle-bob], mais conhecido Uncle Bob, por volta dos anos 2000.
 A utilização desses princípios, como qualquer um que tire bom proveito de nossa amada [OOP][oop], trazem benefícios no design de nossas aplicações, tornando-as mais coesas.
 Neste post você se deparará com minha tentativa de facilitar de alguma forma a vida de alguns com *~traduções da minha cabeça nesse momento de inspiração~*. Eu geralmente não gosto de traduzir esse tipo de coisa, mas se alguém passar por algum lugar desatento e ver esses termos traduzidos, ao ter lido aqui poderá associar com mais facilidade, ou não.
-
 Daremos uma olhada por cima de cada um desses princípios, mas em breve estarei postando um conteúdo para cada um deles com exemplos e talvez uma explicação melhor.
 No final estarei postando o código-fonte de uma aplicação que usei como exemplo de ferimentos desses princípios para refatorar durante uma apresentação.
 
