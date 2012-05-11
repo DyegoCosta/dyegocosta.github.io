@@ -29,32 +29,32 @@ Além disso, a testabilidade desta classe será comprometida, pois em um cenário e
 
 ## Open/Close Principle
 
-A idéia do OCP ou em português *"Princípio Aberto/Fechado"* é manter entidades da aplicação abertas para extenção, mas fechadas para modificação.
+A ideia do OCP ou em português *"Princípio Aberto/Fechado"* é manter entidades da aplicação abertas para extensão, mas fechadas para modificação.
 Evita a criação de bugs em códigos funcionais e facilita a extensão apesar da complexidade introduzida para a implementação dessa estrutura.
 
 
 ## Liskov Substitution Principle
 
-Aparentemente o princípio SOLID mais chato de se entender, o LSP ou em português *"Princípio Substituição de Liskov"*. O conceito que originou esse princípio é bastante academico, do tipo que um profissional que não esteja acostumado com termos e raciocinios academicos provavelmente não entenderá na primeira tentativa.
+Aparentemente o princípio SOLID mais chato de se entender, o LSP ou em português *"Princípio Substituição de Liskov"*. O conceito que originou esse princípio é bastante acadêmico, do tipo que um profissional que não esteja acostumado com termos e raciocínios acadêrmicos provavelmente não entenderá na primeira tentativa.
 O princípio foi nomeado pelo nome de sua autora [Barbara Liskov][barbara-liskov].
 O conceito, que veremos no post desse tópico, é equivalente ao seguinte *"Deve ser possível substituir uma classe base por suas classes derivadas"*. E é tão simples como parece, até ver sua origem.
 
 
 ## Interface Segregation Principle
 
-O ISP, "Princípio de Segregação de Interface" especifíca que clientes não devem ser forçados a depender de interfaces que não usam. Ou seja, não criar contratos que nem todos os clientes possa implementar, mas sim criar contrato ~*interfaces*~ menores para que seus clientes as implementem por completo.
+O ISP, "Princípio de Segregação de Interface" específica que clientes não devem ser forçados a depender de interfaces que não usam. Ou seja, não criar contratos que nem todos os clientes possa implementar, mas sim criar contrato ~*interfaces*~ menores para que seus clientes as implementem por completo.
 
 
 ## Dependency Inversion Principle
 
-E por último o DIP, ou "Princípio de Inverção de Dependência", nos diz duas coisas. Módulos de alto nível não devem depender de módulos de baixo nível. E que abstrações não devem depender de detalhes, mas detalhes devem depender de abstrações.
-É um princípio extremamente útil para mater seus módulos desacoplados e testáveis. Existem diversas ferramentas, além de outras práticas, que nos auxilíam a utilizar esse princípio com mais eficiência.
+E por último o DIP, ou "Princípio de Inversão de Dependência", nos diz duas coisas. Módulos de alto nível não devem depender de módulos de baixo nível. E que abstrações não devem depender de detalhes, mas detalhes devem depender de abstrações.
+É um princípio extremamente útil para mater seus módulos desacoplados e testáveis. Existem diversas ferramentas, além de outras práticas, que nos auxiliam a utilizar esse princípio com mais eficiência.
 
 
 Como eu disse, nos próximos post veremos com mais detalhes cada um dos princípios.
 
 
-Vou deixar aqui os slides de uma aprentação que fiz na empresa que trabalho atualmente. Sei que não é muito útil ~*principalmente esses meus*~, mas para quem quiser dar uma conferida está aí.
+Vou deixar aqui os slides de uma apresentação que fiz na empresa que trabalho atualmente. Sei que não é muito útil ~*principalmente esses meus*~, mas para quem quiser dar uma conferida está aí.
 
 <div style="width:425px" id="__ss_12226756"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/dyegocosta/princpios-solid-12226756" title="Princípios solid" target="_blank">Princípios solid</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/12226756" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </div><br />
 
