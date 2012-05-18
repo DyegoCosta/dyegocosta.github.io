@@ -32,7 +32,8 @@ div.post_tags ul li {display:inline;margin:5px;}
 div#dsq-subscribe{display:none;}
 div#comments{padding:0 15px 0 15px;}
 div.post_content h2 {margin-bottom:5px;}
-img.post_img { margin: 25px;border: solid 6px white !important;box-shadow:1px 1px 13px #666;margin-bottom: 10px;border-left-width: 10px;border-right-width: 10px;border-bottom-width: 10px;border-top-width: 10px;}
+img.post_img {margin: 25px;border: solid 6px white !important;box-shadow:1px 1px 13px #666;margin-bottom: 10px;border-left-width: 10px;border-right-width: 10px;border-bottom-width: 10px;border-top-width: 10px;}
+img.post_img span {font-size:12px;}
 
 /*CONTACT*/
 div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:420px;height:150px;width:19px;z-index:5;}
