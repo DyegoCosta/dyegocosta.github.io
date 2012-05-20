@@ -58,7 +58,7 @@ public class Relatorio
 }
 </pre>
 
-Como podemos ver a classe
+Como podemos ver a classe Relatorio está responsável por se imprimir e se formatar, então caso precise de um novo formato ou uma nova forma de impressão, a alteração deverá ser feita na mesma classe. Vamos mudar isso.
 
 ### Separando responsabilidades acopladas
 
