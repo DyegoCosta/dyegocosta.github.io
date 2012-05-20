@@ -13,6 +13,7 @@ layout: nil
    <name>Dyego Costa</name>
    <email>dyego.costa@live.com</email>
  </author>
+ 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
