@@ -94,6 +94,6 @@ Note que eu mudei a classe Relatorio para abstract para deixar claro que o Impre
 
 Essa é a ideia do SRP, separar as responsabilidades de forma que cada classe tenha apenas um motivo para mudar.
 
-\* É muito estranho citar algo que comece com ~the~, porque fica ~a the~ ou ~a a~ :-(
+\* É muito estranho citar algo que comece com ~the~, porque fica ~a the~ ou ~a a~
 
 [clean-code]:http://www.infoq.com/br/articles/clean-code-book-review
