@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: 'Princ&iacute;pios SOLID'
+title: 'SOLID Principles'
 category: OOP
 tags: 
 - title: SOLID
