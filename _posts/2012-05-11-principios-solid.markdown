@@ -1,11 +1,11 @@
 --- 
 layout: post
-title: 'Princ\xC3\xADpios SOLID'
+title: 'SOLID Principles'
 category: OOP
 tags: 
 - title: SOLID
   slug: solid
-- title: Princ\xC3\xADpios SOLID
+- title: Princ&iacute;pios SOLID
   slug: principios-solid  
 - title: OOP
   slug: oop
