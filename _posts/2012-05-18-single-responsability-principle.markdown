@@ -25,7 +25,7 @@ Feito de maneira correta, isso é ótimo, apesar do inicial smell antes de acost
 
 ## The Stepdown Rule
 
-No livro [Clean Code][cleancode], o Uncle Bob nos explica a "The Stepdown Rule"* que pode ser identificada como uma aplicação do SRP.
+No livro Clean Code, o Uncle Bob nos explica a "The Stepdown Rule"* que pode ser identificada como uma aplicação do SRP.
 Essa regra nos ensina a escrever um código que possa ser lido em um mesmo nível abstração.
 Ao ler um método podemos esperar que ele execute mais de uma funcionalidade para chegar em um resultado final, por exemplo, para obtermos um resultado temos que fazer uma validação de nossos inputs, dois cálculo diferentes e algo mais, antes de retornar esse resultado. 
 Tendo isso em mente, para cada particularidade do método escreveremos outro método ~em boa parte das vezes eles serão privados, a menos que você identifique que uma ação é de responsabilidade de outra classe~. 
@@ -95,5 +95,3 @@ Note que eu mudei a classe Relatorio para abstract para deixar claro que o Impre
 Essa é a ideia do SRP, separar as responsabilidades de forma que cada classe tenha apenas um motivo para mudar.
 
 \* É muito estranho citar algo que comece com ~the~, porque fica ~a the~ ou ~a a~
-
-[cleancode]:http://www.infoq.com/br/articles/clean-code-book-review
