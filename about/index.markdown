@@ -2,19 +2,19 @@
 layout: about
 title: 'define:dyego'
 ---
-Eu desenvolvo softwares com paix„o.
+Eu desenvolvo softwares com paix√£o.
 
-Sou uma pessoa comprometida, que nunca desiste de um objetivo. Acredito que n„o h· desculpa para n„o fazer no mÌnimo o meu melhor para realizar qualquer tarefa, e que o desenvolvimento contÌnuo È essencial.
+Sou uma pessoa comprometida, que nunca desiste de um objetivo. Acredito que n√£o h√° desculpa para n√£o fazer no m√≠nimo o meu melhor para realizar qualquer tarefa, e que o desenvolvimento cont√≠nuo √© essencial.
 
-Gosto de compartilhar, ainda mais com as pessoas que est„o interessadas no que tenho a oferecer. Acredito que seja uma Ûtima forma de evoluir o que eu j· tenho conhecimento e passar a conhecer ainda mais.
+Gosto de compartilhar, ainda mais com as pessoas que est√£o interessadas no que tenho a oferecer. Acredito que seja uma √≥tima forma de evoluir o que eu j√° tenho conhecimento e passar a conhecer ainda mais.
 
-Tenho um espÌrito verdadeiramente aberto, e n„o acho que sÛ h· uma maneira de fazer alguma coisa, acho que tudo tem de ser cuidadosamente analisado para ser feito da melhor e mais r·pida maneira possÌvel.
+Tenho um esp√≠rito verdadeiramente aberto, e n√£o acho que s√≥ h√° uma maneira de fazer alguma coisa, acho que tudo tem de ser cuidadosamente analisado para ser feito da melhor e mais r√°pida maneira poss√≠vel.
 
-Gosto de aprender, isso È uma grande satisfaÁ„o para mim. Estou sempre aberto para aprender qualquer tipo de coisa.
+Gosto de aprender, isso √© uma grande satisfa√ß√£o para mim. Estou sempre aberto para aprender qualquer tipo de coisa.
 
-Realmente gosto de um desafio, tambÈm acho que È uma maneira boa e saud·vel de evoluir e buscar conhecimento.
+Realmente gosto de um desafio, tamb√©m acho que √© uma maneira boa e saud√°vel de evoluir e buscar conhecimento.
 
-Em certas horas eu [patino][inline], assisto bons filmes e boas sÈries (na minha opini„o), respiro, saio com os amigos, saio sozinho, leio [bons livros][leitura], me alimento, etc.
+Em certas horas eu [patino][inline], assisto bons filmes e boas s√©ries (na minha opini√£o), respiro, saio com os amigos, saio sozinho, leio [bons livros][leitura], me alimento, etc.
 
 
 <div class="addthis_toolbox addthis_32x32_style addthis_default_style">
