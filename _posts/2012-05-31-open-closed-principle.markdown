@@ -19,11 +19,10 @@ Esse princípio é um dos mais antigos do Design Orientado a Objetos, mas não v
 <p class="post_img_subtitle">Você não substituiria todas as portas de sua casa por portas desse tipo, certo?</p>
 
 Esse princípio só deve ser utilizado em módulos que mudam com certa frequência e difícilmente será aplicado no design inicial de sua aplicação.
-A menos que você tenha certeza de que um certo código irá mudar, falando em extensão que poderá ser visto no exemplo, não recomendo que utilize esse princípio.
 
 ## O código
 
-Como eu disse, o princípio deve ser aplicado a um cenário onde puder se identificado uma constante mudança no código que influencia na mudança de outras entidades.
+Como eu disse, o princípio deve ser aplicado a um cenário onde puder ser identificado uma constante mudança no código que influencia na mudança de outras entidades.
 Isso geralmente é identificado durante o amadurecimento do módulo, por isso não é indicado sua aplicação imediata.
 Vamos dar uma olhada em um exemplo real que me deparei a pouco tempo atrás.
 
