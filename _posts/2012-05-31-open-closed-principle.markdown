@@ -114,6 +114,6 @@ public sealed class BotaoCancelar : TipoBotao
 
 Dessa forma, caso eu queira adicionar um novo tipo de botão (Por exemplo um botão "Voltar", "Editar", "Novo", etc) a única coisa que precisarei fazer é criar um nova classe que implemente o TipoBotao.
 
-Ressaltando o que eu disse, não utilize esse princípio a menos que identifique ser necessário.
+Ressaltando o que eu disse, não utilize esse princípio antes de identificar sua real necessidade.
 
 [ocp-robert-martin-artile]:http://www.objectmentor.com/resources/articles/ocp.pdf
