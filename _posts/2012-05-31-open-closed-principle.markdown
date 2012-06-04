@@ -29,7 +29,7 @@ Vamos dar uma olhada em um exemplo real que me deparei a pouco tempo atrás.
 
 ### Violação do OCP
 
-Estou utilizando a plataforma ASP.NET MVC, e esse código é de um helper que me ajuda na criação dos botões de uma área específica da aplicação.
+Estou utilizando um recurso do ASP.NET MVC, e esse código é de um helper que me ajuda na criação de botões de uma área específica da aplicação.
 A ideia era passar o tipo do botão que o helper se encarregaria em montar seu HTML e colocar uma imagem ~via uma classe do CSS~ de acordo com o tipo do botão.
 
 <pre name="code" class="c-sharp">
@@ -50,7 +50,7 @@ public static MvcHtmlString MeuLink(this HtmlHelper helper, TipoBotao tipoBotao)
 		break;
 	}
 
-    var meuLink = string.Format("<a class='estiloPadraoDoBotao {0}'>{1}</a>", classeCss, texto);
+    var meuLink = string.Format("<a class='estiloPadraoDoBotao {0}'><span>{1}</span></a>", classeCss, texto);
 
     return MvcHtmlString.Create(meuLink);
 }
