@@ -30,6 +30,9 @@
 					<div id="all_categories">
 						<h3 class="widget_title">Categorias</h3>
 						<ul>
+						<li>
+							<a class="category" href="/all/">Todos os posts ({{ site.posts | size }})</a>
+						</li>
 						{% for category in site.categories %}
 							<li>
 								<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>

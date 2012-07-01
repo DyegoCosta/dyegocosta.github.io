@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Posts com a categoria OOP
-category: OOP
+title: Todos os posts
 ---
-<h2 class="category">OOP</h2>
+<h2 class="category">Todos os posts</h2>
 <ul class="posts">
 	{% for post in site.posts %}				
 	{% for category in post.categories %}	
@@ -18,4 +17,3 @@ category: OOP
 	{% endfor %}
 	{% endfor %}
 </ul>
-<h3><a href="/">Voltar</a></h3>
