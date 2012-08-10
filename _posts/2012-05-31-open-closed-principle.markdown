@@ -16,7 +16,7 @@ Evita a criação de bugs em códigos funcionais e facilita a extensão apesar d
 Esse princípio é um dos mais antigos do Design Orientado a Objetos, mas não vamos nos entediar aqui lendo sua história. Para quem se interessar, recomendo o artigo [The Open-Closed Principle][ocp-robert-martin-artile] escrito em 1996 por Robert Martin.
 
 <center>
-	<img title="Porta holandesa" src="/images/dutch-door-ocp.jpg" class="post_img" style="margin-left:33%;" />
+	<img title="Porta holandesa" src="/images/dutch-door-ocp.jpg" class="post_img" />
 	<p class="post_img_subtitle">Você não substituiria todas as portas de sua casa por portas desse tipo, certo?</p>
 </center>
 
