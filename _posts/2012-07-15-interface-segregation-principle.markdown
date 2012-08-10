@@ -15,7 +15,9 @@ Não menos importante que qualquer um dos princípios, o ISP, ou princípio de S
 Seguindo o ISP nós teremos contratos de classes mais coesas. Em outras palavras, não criaremos contratos gordos que alguma classe que precise implementá-lo, não deixe de implementá-lo por completo.  
 Particularmente eu evitaria um contrato gordo de todas as formas possíveis, devido ao smell que ele traz. MAS em alguns casos ele possa ser necessário e não trazer mal algum. Não sei se já notaram, mas alguns Frameworks possuem contratos monstruosos, e até que funcionam bem.
 
-<img alt="Control room" src="/images/control-room.jpg" class="post_img" style="margin:25px 12% 25px;"/>
+<center>
+	<img alt="Control room" src="/images/control-room.jpg" class="post_img" style="margin:25px 12% 25px;"/>
+</center>
 
 ## O código
 

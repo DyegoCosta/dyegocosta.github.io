@@ -17,8 +17,10 @@ Além disso, a testabilidade desta classe será comprometida, pois em um cenári
 O SRP, ou em português "Princípio de Responsabilidade Única" diz que todo objeto deve ter um única responsabilidade, e que a responsabilidade deve estar encapsulada pela classe.
 Ou com as palavras de Robert C. Martin ~aka Uncle Bob~, "Uma classe deve ter apenas um motivo para mudar".
 
-<img title="Wolverine" src="/images/great-power-equals-great-responsability.jpg" class="post_img"/>
-<p class="post_img_subtitle">Vamos ouvir o Tio Ben e deixar os grandes poderes e responsabilidades para nosso amigo Wolverine.</p>
+<center>
+	<img title="Wolverine" src="/images/great-power-equals-great-responsability.jpg" class="post_img"/>
+	<p class="post_img_subtitle">Vamos ouvir o Tio Ben e deixar os grandes poderes e responsabilidades para nosso amigo Wolverine.</p>
+</center>
 
 Pode parecer estranho para quem não está acostumado com esse tipo de prática, mas ao aplicá-la, podemos notar um aumento significante de nosso métodos e classes.
 Feito de maneira correta, isso é ótimo, apesar do inicial smell antes de acostumar.
