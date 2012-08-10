@@ -73,7 +73,7 @@ div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:500px;height:150
 .contact_fixed a.soc-rss:hover{background-color:rgb(246, 168, 88);}
 
 /*FOOTER*/
-footer{border-top:1px dashed #36BCAB;display:inline-block;margin:0 25px 0 25px;padding:0 25px 45px;min-width:740px}
+footer{display:inline-block;margin:0 25px 0 25px;padding:0 25px 45px;min-width:740px}
 h3.widget_title{font-weight:bold;}
 div#all_categories{float:left; width:200px;}
 div#all_categories ul {padding:0px;}

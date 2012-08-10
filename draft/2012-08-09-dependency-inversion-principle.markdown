@@ -11,8 +11,7 @@ tags:
   slug: oop
 ---
 
-Fechando a série de posts com a visão geral dos princípios SOLID, temos o Dependency Inversion Principle.
-
+Fechando a série de posts com a visão geral dos princípios SOLID, temos o Dependency Inversion Principle.  
 Esse princípio possui duas abordagens, primeiramente que um módulo de alto nível não deve depender de outro de baixo nível, e além disso, que abstrações não devem dependender de detalhes. 
 Vamos nos alinhar com cada uma delas.
 
