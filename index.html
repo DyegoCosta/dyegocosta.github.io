@@ -2,7 +2,7 @@
 layout: default
 title: Dyego Costa
 ---
-{% for post in site.posts limit:5  offset:0 %}
+{% for post in site.posts limit:10  offset:0 %}
 <div id="post">
 	<h1 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h1>
 	<div class="index_meta">
@@ -10,7 +10,7 @@ title: Dyego Costa
 		<div class="post_comments_count"><a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.id}}">Deixe um coment&aacute;rio</a></div>			
 	</div>
 	<div class="post_content">
-		{{ post.content | truncate: 450 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
+		{{ post.content | truncate: 300 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
 	</div>
 </div>	
 {% endfor %}

@@ -18,30 +18,35 @@
 					<div class="page">
 						{{content}}									
 					</div>
-					<div class="contact_fixed">
-						<a href="/about" class="soc-eu"><span>Eu</span></a>
-						<a href="http://facebook.com/dyego.costa" class="soc-facebook"><span>Facebook</span></a>
-						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
-						<a href="http://dyegocosta.com/atom.xml" target="_blank" class="soc-rss"><span>RSS Feed</span></a>			
-						<a href="mailto:dyego.costa@live.com" target="_blank" class="soc-mail"><span>dyego.costa@live.com</span></a>						
-					</div>
-				</div>				
-				<footer>
-					<div id="all_categories">
-						<h3 class="widget_title">Categorias</h3>
+					<div class="right_content">
+						<h2>Próximos eventos</h2>
+						<a href="http://www.caipiraagil.com/"><img src="/images/logo_caipira.png" /></a>					
+						<a href="http://www.agilebrazil.com/2012/"><img src="/images/AgileBrazil-verde.png" /></a>						
+						<a href="http://www.testday.com.br/"><img src="/images/alogo_testday.jpg" /></a>			
+						
+						<h2>Categorias</h2>
 						<ul>
-						<li>
-							<a class="category" href="/all/">Todos os posts ({{ site.posts | size }})</a>
-						</li>
-						{% for category in site.categories %}
 							<li>
-								<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
+								<a class="category" href="/all/">Todos os posts ({{ site.posts | size }})</a>
 							</li>
-						{% endfor %}
+							{% for category in site.categories %}
+								<li>
+									<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
+								</li>
+							{% endfor %}
 						</ul>
-					</div>
-					<div id="all_categories">
-						<h3 class="widget_title">Pesquisa</h3>
+						
+						<h2>Conheça</h2>
+						<ul>
+							<li>
+								<a href="/about">Autor</a>
+							</li>
+							<li>
+								<a href="http://team-room.github.com">TeamRoom</a>
+							</li>							
+						<ul>
+						
+						<h2>Pesquisa</h2>
 						<form method="GET" action="http://www.google.com/search">
 			              <input type="hidden" name="ie" value="UTF-8">
 			              <input type="hidden" name="oe" value="UTF-8">
@@ -52,6 +57,13 @@
 			              <input type="hidden" name="sitesearch" value="dyegocosta.com">
 			            </form>
 					</div>
+					<div class="contact_fixed">						
+						<a href="http://github.com/dyegocosta" target="_blank" class="soc-github"><span>GitHub</span></a>
+						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
+						<a href="http://feeds.feedburner.com/DyegoCosta" target="_blank" class="soc-rss"><span>RSS</span></a>
+					</div>
+				</div>				
+				<footer>										
 					<div id="all_tags">
 						<h3 class="widget_title">Tags</h3>
 						<ul>

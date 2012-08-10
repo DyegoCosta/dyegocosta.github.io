@@ -12,8 +12,16 @@ h1.title, h1.title a, h1.title a:visited, h1.title a:hover{font-size:48px;text-s
 span.subtitle{margin-top:0;text-shadow:1px 1px 1px #CCC;}
 
 /*CONTAINER*/
-div.container{position:relative;box-shadow:0 25px 75px rgba(0,0,0,.3); background-color:White;width:840px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
-div.page{padding:20px;}
+div.container{position:relative;box-shadow:0 25px 75px rgba(0,0,0,.3); background-color:White;width:1000px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
+div.page{padding:20px;width:700px;float:left;}
+
+/*RIGHT CONTENT*/
+div.right_content{padding:20px;width: 220px;float:left;}
+div.right_content h2{margin-bottom:15px;}
+div.right_content img{margin:10px 0px 10px;}
+div.right_content ul {padding:0px;list-style-type:none;}
+div.right_content ul li {margin:5px;}
+div.right_content a:hover{text-decoration:none; border-bottom:none;}
 
 /*HOME*/
 div.index_meta{display:inline-block;width:600px;height:30px;padding:3px 0 0 3px;}
@@ -38,9 +46,9 @@ p.post_img_subtitle {font-size:12px;margin-top:-20px !important;text-align:cente
 p.quote {border-left-style:solid; border-left-color: black; margin-left: 40px !important; padding-left: 5px; border-left-width: 1px;}
 
 /*CONTACT*/
-div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:420px;height:150px;width:19px;z-index:5;}
+div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:500px;height:150px;width:19px;z-index:5;}
 
-/*CONTACT STYLE 1*/
+/*CONTACT STYLE 1*//*
 .contact_fixed a:hover{border:none;}
 .contact_fixed a span{display:block;visibility:hidden;min-width:152px;text-transform:uppercase;font-weight:700;font-size:10px;color:#FFFFFF;}
 .contact_fixed a {background:url("/images/soc-icons.png") no-repeat scroll 0 0 transparent;display:block;font-size:10px;font-weight:700;height:20px;line-height:20px;margin-left:133px;overflow:hidden;position:absolute;right:0;text-decoration:none;text-transform:uppercase;width:19px;}
@@ -51,14 +59,18 @@ div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:420px;height:150
 .contact_fixed a.soc-rss {background-color:#F6A858;background-position:3px -55px;top:60px;}
 .contact_fixed a:hover { -webkit-transition:all .2s ease-in-out;-moz-transition:all 0.1s ease-in-out 0s;-o-transition:all .2s ease-in-out;min-width:143px;padding-left:25px;}
 .contact_fixed a:hover span {left:25px;position:absolute;top:0;visibility:visible;}
-
-/*CONTACT STYLE 2
+*/
+/*CONTACT STYLE 2*/
 .contact_fixed a{color:white;padding:0 2px 0 2px;}
 .contact_fixed a:hover{border:none;}
 .contact_fixed a.soc-me{background-color:rgba(0, 100, 0, 0.4);}
+.contact_fixed a.soc-me:hover{background-color:rgb(0, 100, 0);}
 .contact_fixed a.soc-twitter{background-color:rgba(117, 221, 254, 0.4);}
+.contact_fixed a.soc-twitter:hover{background-color:rgb(117, 221, 254);}
 .contact_fixed a.soc-github{background-color:rgba(0, 0, 0, 0.4);}
-.contact_fixed a.soc-rss{background-color:rgba(246, 168, 88, 0.4);}*/
+.contact_fixed a.soc-github:hover{background-color:rgb(0, 0, 0);}
+.contact_fixed a.soc-rss{background-color:rgba(246, 168, 88, 0.4);}
+.contact_fixed a.soc-rss:hover{background-color:rgb(246, 168, 88);}
 
 /*FOOTER*/
 footer{border-top:1px dashed #36BCAB;display:inline-block;margin:0 25px 0 25px;padding:0 25px 45px;min-width:740px}
