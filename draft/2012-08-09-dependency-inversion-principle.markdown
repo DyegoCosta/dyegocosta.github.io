@@ -20,4 +20,5 @@ Vamos nos alinhar com cada uma delas.
 ## Alto e baixo nível
 
 O princípio presa que um módulo de alto nível não deve depender de outro(s) de baixo nível, mas que ambos devem depender de abstrações.
-Um módulo de alto nível está relacionado
+Um módulo de alto nível está relacionado a entidades de negócio e de interação com o usuário, e baixo nível está relacionado a entidades de infraestrutura, como módulos de persistencia. 
+Mas por que não é recomendável que um módulo dependa do outro? 
