@@ -77,7 +77,7 @@ public class ClienteController : ApiController
 </pre>
 
 Para o Controller, não importa a implementação do repositório, caso ele nos traga o que buscamos. Nesse caso, se precisarmos mudar a implementação do repositório, a mudança será transparente para nosso Controller.
-Com isso teremos ganhos com a testabilidade de nosso Controller, pois podemos facilmente mockar o comportamento de nosso repositório 
+Com isso teremos ganhos na testabilidade de nosso Controller, pois podemos facilmente mockar o comportamento de nosso repositório 
 
 
 
