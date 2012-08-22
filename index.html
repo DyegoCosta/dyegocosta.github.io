@@ -2,7 +2,7 @@
 layout: default
 title: Dyego Costa
 ---
-{% for post in site.posts limit:10  offset:0 %}
+{% for post in paginator.posts %}
 <div id="post">
 	<h1 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h1>
 	<div class="index_meta">
@@ -11,6 +11,28 @@ title: Dyego Costa
 	</div>
 	<div class="post_content">
 		{{ post.content | truncate: 300 }} <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
-	</div>
+	</div>	
 </div>	
 {% endfor %}
+<!-- Pagination links -->
+<center>
+	<div class="pagination">
+		{% if paginator.previous_page %}
+			<span class="previous">
+				{% if paginator.previous_page == 1 %}
+				<a href="/">Previous</a>
+				{% else %}
+				<a href="/page{{paginator.previous_page}}">Previous</a>
+				{% endif %}
+			</span>
+		{% else %}
+			<span class="previous">Anterior</span>
+		{% endif %}
+			<span class="page_number ">Página {{paginator.page}} de {{paginator.total_pages}}</span>
+		{% if paginator.next_page %}
+			<a href="/page{{paginator.next_page}}" class="next ">Próxima</a>
+		{% else %}
+			<span class="next ">Próxima</span>
+		{% endif %}
+	</div>
+</center>
