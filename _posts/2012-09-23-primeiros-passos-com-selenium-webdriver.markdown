@@ -30,7 +30,7 @@ criado por Simon Stewart nos laboratórios da Google justamente para solucionar 
 Em 2008 surge o Selenium WebDriver para a alegria de quem sofria com os pontos de limitações do RC.
 
 ## Mão na massa
-Vamos ao clássico exemplo 'cheeses'. **Se você veio seco nesse post esperando um exemplo mais completo e mimimi, não ficará totalmente na mão!
+Vamos ao clássico exemplo 'cheeses'. **Se você veio seco nesse post esperando um exemplo mais completo e mimimi, o que é meio difícil por causa do título, não ficará totalmente na mão!
 Tenho um repositório com um exemplo mais bacana no meu GitHub, que pode ser acessado [aqui][selenium-repository]**. Pretendo escrever um post sobre esse exemplo e provavelmente deixa-lo mais legal no processo :-)
 
 ### Instalação
@@ -38,7 +38,7 @@ Tenho um repositório com um exemplo mais bacana no meu GitHub, que pode ser ace
 Sim! Podemos instalar via NuGet! Utilize o comando *Install-Package Selenium.Support* no *Package Manage Console*
 
 <center>
-	<img title="Cheese" src="/images/selenium-install.jpg" class="post_img"/>
+	<img title="Instalação" alt="Instalação" src="/images/selenium-install.JPG" class="post_img"/>
 </center>
 
 Para quem não gosta do Console, é só pesquisar por *Selenium.Support* no *Manage NuGet Packages* :-P
