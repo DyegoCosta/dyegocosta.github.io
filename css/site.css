@@ -27,8 +27,8 @@ div.right_content a:hover{text-decoration:none; border-bottom:none;}
 div.index_meta{display:inline-block;width:600px;height:30px;padding:3px 0 0 3px;}
 div.index_meta div {float:left;margin-right:35px;padding-left:20px;}
 span.index_meta{font-size:13px;}
-div.post_date{background:url("/images/dateIcon.gif") no-repeat scroll left 5px transparent;}
-div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scroll left 5px transparent;}
+div.post_date{background:url("/images/dateIcon.gif") no-repeat scroll left 10px transparent;}
+div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scroll left 10px transparent;}
 div.post_content p{margin:0px 0px 20px;}
 
 /*POST*/
