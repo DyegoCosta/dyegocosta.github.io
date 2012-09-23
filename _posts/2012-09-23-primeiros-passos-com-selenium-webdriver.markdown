@@ -26,8 +26,7 @@ O Selenium nasceu em 2004, criado por Jason Huggins, como uma biblioteca de Java
 acabou se tornando o Selenium Core, utilizado pelos projeots Selenium IDE e RC.
 A ferramenta Selenium WebDriver precede da ideia do [Selenium Remote Control (RC)][SeleniumRC], que ainda existe e é utilizado. O RC era uma 
 grande novidade na época em que foi lançado, mas possuía algumas limitações devido a forma que foi construído. O WebDriver surgiu como um projeto paralelo,
-criado por Simon Stewart nos laboratórios da Google justamente para solucionar as limitações do RC, que na época já era muito utilizado pela empresa.  
-Em 2008 surge o Selenium WebDriver para a alegria de quem sofria com os pontos de limitações do RC.
+criado por Simon Stewart nos laboratórios da Google justamente para solucionar as limitações do RC, que na época já era muito utilizado pela empresa. E em 2008 surge o Selenium WebDriver para a alegria de quem sofria com os pontos de limitações do RC.
 
 ## Mão na massa
 Vamos ao clássico exemplo 'cheeses'. **Se você veio seco nesse post esperando um exemplo mais completo e mimimi, o que é meio difícil por causa do título, não ficará totalmente na mão!
