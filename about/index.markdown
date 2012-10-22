@@ -25,7 +25,7 @@ Em certas horas eu [patino][inline], assisto bons filmes e boas séries (na minh
 <a class="addthis_button_vimeo_follow" addthis:userid="dyego"></a>
 <a class="addthis_button_pinterest_follow" addthis:userid="dyegocosta"></a>
 <a class="addthis_button_foursquare_follow" addthis:userid="dyegoscosta"></a>
-<a class="addthis_button_rss_follow" addthis:url="http://dyegocosta.com/atom.xml"></a>
+<a class="addthis_button_rss_follow" addthis:url="http://dyegocomy.com/atom.xml"></a>
 </div>
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f8b082866706103"></script>
 

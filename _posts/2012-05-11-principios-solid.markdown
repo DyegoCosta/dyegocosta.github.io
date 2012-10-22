@@ -58,7 +58,7 @@ Vou deixar aqui os slides de uma apresentação que fiz na empresa que trabalho 
 
 <div style="width:425px" id="__ss_12226756"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/dyegocosta/princpios-solid-12226756" title="Princípios solid" target="_blank">Princípios solid</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/12226756" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> </div><br />
 
-[oop]:http://dyegocosta.com/category/oop
+[oop]:http://dyegocomy.com/category/oop
 [uncle-bob]:http://en.wikipedia.org/wiki/Robert_Cecil_Martin
-[srp]:http://dyegocosta.com/tags/srp
+[srp]:http://dyegocomy.com/tags/srp
 [barbara-liskov]:http://en.wikipedia.org/wiki/Barbara_Liskov
