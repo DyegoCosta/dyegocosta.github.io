@@ -7,13 +7,13 @@ a:hover{text-decoration:none; border-bottom:1px dotted;}
 .goLeft { float:left; }
 
 /*HEADER*/
-header{text-align:center;width:840px;margin:auto;}
+header.main{text-align:center;width:840px;margin:auto;}
 h1.title, h1.title a, h1.title a:visited, h1.title a:hover{font-size:48px;text-shadow:2px 2px 2px #ddd;color:#333;text-decoration:none;margin:10px;border:none;}
 span.subtitle{margin-top:0;text-shadow:1px 1px 1px #CCC;}
 
 /*CONTAINER*/
 div.container{position:relative;box-shadow:0 25px 75px rgba(0,0,0,.3); background-color:White;width:1000px;margin:0 auto 60px auto;border-top:2px solid #36BCAB;margin-top:15px;}
-div.page{padding:20px;width:700px;float:left;line-height: 30px}
+section.page{padding:20px;float:left;line-height: 30px}
 
 /*RIGHT CONTENT*/
 div.right_content{padding:20px;width: 220px;float:left;}
@@ -29,7 +29,7 @@ div.index_meta div {float:left;margin-right:35px;padding-left:20px;}
 span.index_meta{font-size:13px;}
 div.post_date{background:url("/images/dateIcon.gif") no-repeat scroll left 10px transparent;}
 div.post_comments_count{background:url("/images/commentsIcon.gif") no-repeat scroll left 10px transparent;}
-div.post_content p{margin:0px 0px 20px;}
+article.post_content p{margin:0px 0px 20px;}
 
 /*POST*/
 h1.post_title{margin:20px 0px 0px;}
@@ -73,13 +73,14 @@ div.contact_fixed{left:50%;top:200px;position:fixed;margin-left:500px;height:150
 .contact_fixed a.soc-rss:hover{background-color:rgb(246, 168, 88);}
 
 /*FOOTER*/
-footer{display:inline-block;margin:0 25px 0 25px;padding:0 25px 45px;min-width:740px}
+footer{display:inline-block;margin:30px 25px 0 25px;padding:0 25px 45px;min-width:740px}
 h3.widget_title{font-weight:bold;}
-div#all_categories{float:left; width:200px;}
+div#all_categories{float:left;margin-left: 30px;}
 div#all_categories ul {padding:0px;}
-div#all_categories ul li{list-style:none;}
+div#all_categories ul li{display:inline;list-style:none;margin-right: 15px}
+div#all_tags {float:left;}
 div#all_tags ul {padding:0px;}
 div#all_tags ul li {display:inline;margin:5px;}
 
 /*PAGINATION*/
-.page_number{margin: auto 230px auto;}
+.page_number{margin: 30px 230px auto;}

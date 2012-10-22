@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -9,55 +8,15 @@
 	</head>	
 	<body>
 		<div id="page">
-			<header>			
-				<h1 class="title"><a href="/">Dyego Costa</a></h1>
+			<header class="main">			
+				<h1 class="title"><a href="/">Dyego com Y</a></h1>
 				<span class="title_contents">{ .NET, pr&aacute;ticas, metodologias, novidades, princ&iacute;pios }</span>
 			</header>			
 			<div class="container">	
 				<div id="content">
-					<div class="page">
+					<section class="page">
 						{{content}}
-					</div>
-					<div class="right_content">
-						<h2>Próximos eventos</h2>
-						<a href="http://www.caipiraagil.com/"><img src="/images/logo_caipira.png" /></a>					
-						<a href="http://www.agilebrazil.com/2012/"><img src="/images/AgileBrazil-verde.png" /></a>						
-						<a href="http://www.testday.com.br/"><img src="/images/alogo_testday.jpg" /></a>			
-						<a href="http://devday.devisland.com/"><img src="/images/devday2.jpg" /></a>			
-						
-						<h2>Categorias</h2>
-						<ul>
-							<li>
-								<a class="category" href="/all/">Todos os posts ({{ site.posts | size }})</a>
-							</li>
-							{% for category in site.categories %}
-								<li>
-									<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
-								</li>
-							{% endfor %}
-						</ul>
-						
-						<h2>Conheça</h2>
-						<ul>
-							<li>
-								<a href="/about">Autor</a>
-							</li>
-							<li>
-								<a href="http://team-room.github.com">TeamRoom</a>
-							</li>							
-						<ul>
-						
-						<h2>Pesquisa</h2>
-						<form method="GET" action="http://www.google.com/search">
-			              <input type="hidden" name="ie" value="UTF-8">
-			              <input type="hidden" name="oe" value="UTF-8">
-			              <input class="field" type="text" name="q" size="7" maxlength="255" value="" placeholder="Pesquisar...">
-			              <input class="button" type="submit" name="btnG" value="Go" title="Search">
-			              <input type="hidden" name="domains" value="dyegocosta.com">
-			              <input type="hidden" name="sitesearch" value="">
-			              <input type="hidden" name="sitesearch" value="dyegocosta.com">
-			            </form>
-					</div>
+					</section>
 					<div class="contact_fixed">						
 						<a href="http://github.com/dyegocosta" target="_blank" class="soc-github"><span>GitHub</span></a>
 						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
@@ -73,7 +32,17 @@
 								<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
 							</li>
 						{% endfor %}
-						</ul>						
+						</ul>					
+					</div>
+					<div id="all_categories">
+						<h3 class="widget_title">Categorias</h3>
+						<ul>
+						{% for category in site.categories %}
+							<li>
+								<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
+							</li>
+						{% endfor %}
+						</ul>					
 					</div>
 				</footer>				
 			</div>			
