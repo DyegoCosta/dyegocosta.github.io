@@ -15,9 +15,11 @@ title: Dyego Costa
 	</header>
 
 	<div class="post_content">
-		{{ post.content | truncate: 320 }}  		
-	</div>
-	<a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
+		{{ post.content | truncate: 320 }}  
+
+		
+		<a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
+	</div>	
 </article>	
 {% endfor %}
 <!-- Pagination links -->
