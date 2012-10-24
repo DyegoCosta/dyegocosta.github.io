@@ -3,19 +3,24 @@ layout: default
 title: Dyego Costa
 ---
 {% for post in paginator.posts %}
-<div class="post">
-	<h1 class="post_title"><a href="{{ post.url }}">{{ post.title}}</a></h1>
-	<div class="index_meta">
-		<div class="post_date">{{ post.date | date: "%d/%m/%Y" }}</div>
-		<div class="post_comments_count"><a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.id}}">Deixe um coment&aacute;rio</a></div>			
-	</div>
+<article class="post">
+	<header>
+		<h1 class="post_title"><a href="{{post.url}}">{{ post.title }}</a></h1>
+		<div class="meta">
+			<div class="post_date">{{ post.date | date: "%d/%m/%Y" }}</div>
+			<div class="post_comments_count">
+				<a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.id}}">Deixe um coment&aacute;rio</a>
+			</div>			
+		</div>
+	</header>
+
 	<div class="post_content">
 		{{ post.content | truncate: 350 }} <br> <a class="continue_lendo" href="{{ post.url }}">Continue lendo &rarr;</a>
 	</div>	
-</div>	
+</article>	
 {% endfor %}
 <!-- Pagination links -->
-<center>
+
 	<div class="pagination">
 		{% if paginator.previous_page %}
 			<span class="previous">
@@ -35,4 +40,3 @@ title: Dyego Costa
 			<span class="next ">Próxima</span>
 		{% endif %}
 	</div>
-</center>

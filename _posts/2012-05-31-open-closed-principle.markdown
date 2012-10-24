@@ -15,10 +15,10 @@ A ideia do OCP, ou em português *"Princípio Aberto/Fechado"*, é manter as ent
 Evita a criação de bugs em códigos funcionais e facilita a extensão apesar da complexidade introduzida para a implementação dessa estrutura.
 Esse princípio é um dos mais antigos do Design Orientado a Objetos, mas não vamos nos entediar aqui lendo sua história. Para quem se interessar, recomendo o artigo [The Open-Closed Principle][ocp-robert-martin-artile] escrito em 1996 por Robert Martin.
 
-<center>
-	<img title="Porta holandesa" src="/images/dutch-door-ocp.jpg" class="post_img" />
+
+<img title="Porta holandesa" src="/images/dutch-door-ocp.jpg" class="post_img" />
 	<p class="post_img_subtitle">Você não substituiria todas as portas de sua casa por portas desse tipo, certo?</p>
-</center>
+
 
 Esse princípio só deve ser utilizado em módulos que mudam com certa frequência e difícilmente será aplicado no design inicial de sua aplicação.
 

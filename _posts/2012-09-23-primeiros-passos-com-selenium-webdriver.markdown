@@ -15,10 +15,10 @@ sejam mais utilizadas para automação de testes, nada lhe impede de automatizar
 existe o [Selenium Grid][SeleniumGrid], [Selenium RC][SeleniumRC] e o [Selenium IDE][SeleniumIDE]. 
 É interessante ressaltar que essa ferramenta comporta diversos browsers e diversas linguagens de programação.
 
-<center>
-	<img title="Cheese" src="/images/cheese.jpg" class="post_img"/>
-	<p class="post_img_subtitle">Se desanimou com a imagem, procure uma frase em negrito no post!</p>
-</center>
+
+<img title="Cheese" src="/images/cheese.jpg" class="post_img"/>
+<p class="post_img_subtitle">Se desanimou com a imagem, procure uma frase em negrito no post!</p>
+
 
 
 ## Uma breve história
@@ -36,9 +36,9 @@ Tenho um repositório com um exemplo mais bacana no meu GitHub, que pode ser ace
 
 Sim! Podemos instalar via NuGet! Utilize o comando *Install-Package Selenium.Support* no *Package Manage Console*
 
-<center>
-	<img title="Instalação" alt="Instalação" src="/images/selenium-install.JPG" class="post_img"/>
-</center>
+
+<img title="Instalação" alt="Instalação" src="/images/selenium-install.JPG" class="post_img"/>
+
 
 Para quem não gosta do Console, é só pesquisar por *Selenium.Support* no *Manage NuGet Packages* :-P
 

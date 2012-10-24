@@ -19,9 +19,9 @@ Sua definição inicial, escrita por [Barbara Liskov][Barbara_Liskov], pode ser 
 </p>
 
 
-<center>
-	<img title="Mr. Bean" src="/images/wtf_bean.jpg" class="post_img"/>
-</center>
+
+<img title="Mr. Bean" src="/images/wtf_bean.jpg" class="post_img"/>
+
 
 
 Isso de fato assusta inicialmente ~*me assustou*~. Mas mais uma vez podemos (pude) contar com Robert C. Martin para nos (me) simplificar a ideia. E em suas palavras podemos definir o LSP como abaixo.

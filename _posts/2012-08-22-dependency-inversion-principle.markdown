@@ -15,9 +15,9 @@ Fechando a série de posts com a visão geral dos princípios SOLID, temos o Dep
 Esse princípio possui duas abordagens, primeiramente que um módulo de alto nível não deve depender de outro de baixo nível, e além disso, que abstrações não devem depender de detalhes. 
 Claro que podem existir diversos módulos entre os mais altos e os mais baixos, o DIP se aplica a qualquer indício de dependência desnecessária.
 
-<center>
-	<img alt="" src="/images/cat-and-fish.jpg" class="post_img"/>
-</center>
+
+<img alt="" src="/images/cat-and-fish.jpg" class="post_img"/>
+
 
 ## Alto e baixo nível
 
