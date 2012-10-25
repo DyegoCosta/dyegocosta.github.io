@@ -9,7 +9,7 @@ tags:
   slug: webStandards
 ---
 
-Atualmente tenho me atendado bastante em tecnologias de front-end e gostaria de compartilhar o que tenho visto com vocês.
+Atualmente tenho me atentado bastante em tecnologias de front-end e gostaria de compartilhar o que tenho visto com vocês.
 
 (HTML5 = Novo markup + Nova API Javascript) Essa é a maneira mais simples e eficiente que vejo para definir o HTML5. A ideia é que ele seja chamado apenas de HTML daqui alguns anos, mas atualmente utilizamos esse termo para marcar o inicio das novas funcionalidades que estão sendo definidas e implementadas.  
 
