@@ -15,6 +15,8 @@ Atualmente tenho me atendado bastante em tecnologias de front-end e gostaria de 
 
 Você é ou já foi um programador server-side? Você se preocupa/va em escrever um bom código? Um código coeso, limpo e de fácil leitura? A semântica do HTML traz grandes benefícios como um código server-side bem escrito. Pessoas leem esse código, e além disso, uma boa semântica é importante para a *otimização para motores de busca*, [SEO][seo], que se trata de *"um conjunto de estratégias com o objetivo de potencializar e melhorar o posicionamento de um site nas páginas de resultados naturais (orgânicos) nos sites de busca"*.
 
+<img title="li" src="/images/li.jpg" class="post_img" />
+
 A ideia desse post é fazer um refactoring no markup desse site. Também farei um refactoring no CSS, mas esse ficará em off :-P  
 
 Atualmente estou utilizando o [Jekyll][jekyll], que é um gerador de páginas web estáticas escrito em Ruby. Ele utiliza templates html e mescla com meus posts que são escritos em markdown, e são esses templates que iremos refatorar.  
