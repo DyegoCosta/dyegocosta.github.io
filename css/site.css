@@ -33,8 +33,32 @@ mark {
 
 header.main {
 	text-align:center;
-	width:840px;
+	max-width:840px;
 	margin:auto;
+}
+
+@media screen and (max-width: 480px){
+
+	body{
+		margin: 0px;
+	}
+
+	div.container {
+		margin-bottom: 0px;
+	}
+
+	div#dsq-sort-by, aside.contact_fixed, a#gitHub-fork, header span, .dsq-h3-reactions, .dsq-reactions, .dsq-trackback-url {
+		display: none;
+	}
+
+	article.post img.post_img {
+		width: 100%
+	}
+
+	footer.main {
+		margin: 30px 0px 0px;
+		padding: 0px;
+	}	
 }
 
 h1.title, h1.title a, h1.title a:visited, h1.title a:hover {
@@ -55,7 +79,7 @@ div.container {
 	position:relative;
 	box-shadow:0 25px 75px rgba(0,0,0,.3);
 	background-color:White;
-	width:1000px;
+	max-width:1000px;
 	margin:0 auto 60px auto;
 	border-top:2px solid #36BCAB;
 	margin-top:15px;
@@ -63,13 +87,12 @@ div.container {
 
 section.page {
 	padding:20px;
-	float:left;
 	line-height: 30px
 }
 
 .meta{
 	display:inline-block;
-	width:600px;
+	max-width:600px;
 	height:30px;
 	padding:3px 0 0 3px;
 }
@@ -125,7 +148,7 @@ div#dsq-subscribe {
 
 section#comments {
 	margin:15px auto 0px;
-	width: 900px;
+	max-width: 900px;
 }
 
 article.post img.post_img {
@@ -133,10 +156,7 @@ article.post img.post_img {
 	margin:25px auto 25px;
 	border: solid 6px white !important;
 	box-shadow: 1px 1px 13px #666;
-	border-left-width: 10px;
-	border-right-width: 10px;
-	border-bottom-width: 10px;
-	border-top-width: 10px;
+	border-width: 10px;	
 }
 
 p.post_img_subtitle {
@@ -190,7 +210,7 @@ footer.main {
 	display:inline-block;
 	margin:30px 25px 0 25px;
 	padding:0 25px 45px;
-	min-width:740px
+	max-width:840px
 }
 
 h3.widget_title {
@@ -198,7 +218,8 @@ h3.widget_title {
 }
 
 div#all_categories {
-	float:left;margin-left: 30px;
+	float:left;
+	margin-right: 30px;
 }
 
 div#all_categories ul {
