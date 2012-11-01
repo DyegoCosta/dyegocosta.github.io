@@ -15,7 +15,7 @@ Uma ótima oportunidade para quem trabalha com front-end (Web e/ou Windows Store
 
 <a href="http://www.microsoftvirtualacademy.com/tracks/developing-html5-apps-jump-start" target="_blank"><img src="/images/voucher480.png" class="post_img" /></a>
 
-O curso está disponível na [Microsoft Virtual Academy][MSA] e você pode acessar diretamente por esse [link][promocao] e para agentar o exame através vá até a [página oficial do exame][certificacao] clique em *Schedule* que será redirecionado ao site da Prometric, onde poderá fazer o agendamento utilizando o código <mark>HTMLJMP</mark>. O voucher estará disponível até 31/3/2013 **enquanto durar o estoque**!  
+O curso está disponível na [Microsoft Virtual Academy][MSA] e você pode acessar diretamente por esse [link][promocao] e para agentar o exame através vá até a <a href="http://www.microsoft.com/learning/en/us/exam.aspx?id=70-480" target="_blank">página oficial do exame</a> clique em *Schedule* que será redirecionado ao site da Prometric, onde poderá fazer o agendamento utilizando o código <mark>HTMLJMP</mark>. O voucher estará disponível até 31/3/2013 **enquanto durar o estoque**!  
 
 Já estou agendado meu exame e garantindo minha vaga. Não perca essa chance :-)  
 
