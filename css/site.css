@@ -1,4 +1,6 @@
-﻿body {
+﻿/* Global */
+
+body {
 	background:url(/images/bg.png);
 	color:#333;font-family:"Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
 	font-weight:100;
@@ -14,14 +16,6 @@ a:hover {
 	border-bottom:1px dotted;
 }
 
-.disqus-count-text {
-	display:none; 
-}
-
-.addthis_toolbox a {
-	border:none;
-}
-
 .goLeft { 
 	float:left; 
 }
@@ -31,48 +25,26 @@ mark {
     font-weight: bold;
 }
 
+/* Main header */
+
 header.main {
 	text-align:center;
 	max-width:840px;
 	margin:auto;
 }
 
-@media screen and (max-width: 800px){
-
-	body{
-		margin: 0px;
-	}
-
-	div.container {
-		margin-bottom: 0px;
-	}
-
-	div#dsq-sort-by, aside.contact_fixed, a#gitHub-fork, header span, .dsq-h3-reactions, .dsq-reactions, .dsq-trackback-url {
-		display: none;
-	}
-
-	article.post img.post_img {
-		width: 100%
-	}
-
-	footer.main {
-		margin: 30px 0px 0px;
-		padding: 0px;
-	}	
-}
-
-h1.title, h1.title a, h1.title a:visited, h1.title a:hover {
+header.main h1, header.main h1 a, header.main h1 a:visited, header.main h1 a:hover {
 	font-size:48px;
 	text-shadow:2px 2px 2px #ddd;
 	color:#333;
-	text-decoration:none;
 	margin:10px;
 	border:none;
+	text-decoration:none;
 }
 
-span.subtitle {
-	margin-top:0;
-	text-shadow:1px 1px 1px #CCC;
+header.main h2 {
+	font-size: 16px;
+	font-weight: normal;
 }
 
 div.container {
@@ -257,4 +229,42 @@ section.pagination {
 
 section#social {
 	margin-bottom: 25px;
+}
+
+/* Disqus modifications */
+
+.disqus-count-text {
+	display:none; 
+}
+
+.addthis_toolbox a {
+	border:none;
+}
+
+/* Media queries */
+
+/* < 480px */
+
+@media screen and (max-width: 800px){
+
+	body{
+		margin: 0px;
+	}
+
+	div.container {
+		margin-bottom: 0px;
+	}
+
+	div#dsq-sort-by, aside.contact_fixed, a#gitHub-fork, header span, .dsq-h3-reactions, .dsq-reactions, .dsq-trackback-url {
+		display: none;
+	}
+
+	article.post img.post_img {
+		width: 100%
+	}
+
+	footer.main {
+		margin: 30px 0px 0px;
+		padding: 0px;
+	}	
 }
