@@ -5,8 +5,8 @@ category: Web
 tags: 
 - title: HTML
   slug: html
-- title: WebStandards
-  slug: webStandards
+- title: Web standards
+  slug: web-standards
 ---
 
 Atualmente tenho me atentado bastante em tecnologias de front-end e gostaria de compartilhar o que tenho visto com vocês.

@@ -1,7 +1,7 @@
 --- 
 layout: post
-title: 'Teste seu Javascript no DevDay 2012'
-category: 'Apresentacao'
+title: "Teste seu Javascript no DevDay 2012"
+category: Palestra
 tags: 
 - title: Javascript
   slug: javascript
