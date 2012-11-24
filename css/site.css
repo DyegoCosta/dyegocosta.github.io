@@ -20,12 +20,7 @@ a:hover {
 	float:left; 
 }
 
-mark {
-	background-color: #FFFFCC;
-    font-weight: bold;
-}
-
-/* Main header */
+/* Page header */
 
 header.main {
 	text-align:center;
@@ -47,6 +42,8 @@ header.main h2 {
 	font-weight: normal;
 }
 
+/* Page */
+
 div.container {
 	position:relative;
 	box-shadow:0 25px 75px rgba(0,0,0,.3);
@@ -62,23 +59,30 @@ section.page {
 	line-height: 30px
 }
 
-.meta{
+/* Post */
+
+.post mark {
+	background-color: #FFFFCC;
+    font-weight: bold;
+}
+
+.meta {
 	display:inline-block;
 	max-width:600px;
 	height:30px;
 	padding:3px 0 0 3px;
 }
-.meta div {
+.meta div, .meta time {
 	float:left;
 	margin-right:35px;
 	padding-left:20px;
 }
 
-.post_date {
+div.meta time {
 	background:url("/images/dateIcon.gif") no-repeat scroll left 10px transparent;
 }
 
-.post_comments_count{
+div.meta .post_comments_count{
 	background:url("/images/commentsIcon.gif") no-repeat scroll left 10px transparent;
 }
 
@@ -137,7 +141,19 @@ p.post_img_subtitle {
 	text-align:center;
 }
 
-p.quote {border-left-style:solid; border-left-color: black; margin-left: 40px !important; padding-left: 5px; border-left-width: 1px;}
+p.quote { 
+	border-left-style:solid;
+	border-left-color: black;
+	margin-left: 40px !important;
+	padding-left: 5px;
+	border-left-width: 1px;
+}
+
+section#social {
+	margin-bottom: 25px;
+}
+
+/* Contact */
 
 aside.contact_fixed {
 	left:50%;
@@ -178,6 +194,8 @@ aside.contact_fixed a.soc-rss:hover {
 	background-color:rgb(246, 168, 88);
 }
 
+/* Page footer */
+
 footer.main {
 	display:inline-block;
 	margin:30px 25px 0 25px;
@@ -214,9 +232,25 @@ div#all_tags ul {
 }
 
 div#all_tags ul li {
-	display:inline;
-	margin:5px;
+	display:inline-block;
+	margin:1px;
+	background-color: rgba(0, 0, 0, .15);
+	padding: 3px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
+
+div#all_tags ul li:hover {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+div#all_tags a:hover {
+	text-decoration: none;
+	border:none;
+}
+
+/* Pagination */
 
 .page_number {
 	margin: 30px 230px auto;
@@ -227,10 +261,6 @@ section.pagination {
 	width: 690px;	
 }
 
-section#social {
-	margin-bottom: 25px;
-}
-
 /* Disqus modifications */
 
 .disqus-count-text {
@@ -239,32 +269,4 @@ section#social {
 
 .addthis_toolbox a {
 	border:none;
-}
-
-/* Media queries */
-
-/* < 480px */
-
-@media screen and (max-width: 800px){
-
-	body{
-		margin: 0px;
-	}
-
-	div.container {
-		margin-bottom: 0px;
-	}
-
-	div#dsq-sort-by, aside.contact_fixed, a#gitHub-fork, header span, .dsq-h3-reactions, .dsq-reactions, .dsq-trackback-url {
-		display: none;
-	}
-
-	article.post img.post_img {
-		width: 100%
-	}
-
-	footer.main {
-		margin: 30px 0px 0px;
-		padding: 0px;
-	}	
 }
