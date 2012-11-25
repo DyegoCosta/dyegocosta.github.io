@@ -10,7 +10,7 @@
 		<div id="page">
 			<header class="main">			
 				<h1><a href="/">Dyego com y</a></h1>
-				<h2>{ .NET, pr&aacute;ticas, metodologias, novidades, princ&iacute;pios }</h2>
+				<!--<h2>{ desenvolvimento de software, pr&aacute;ticas, metodologias, novidades, princ&iacute;pios }</h2>-->
 			</header>			
 			<div class="container">	
 				<div id="content">
@@ -18,14 +18,16 @@
 						{{content}}
 					</section>
 					<aside class="contact_fixed">						
-						<a href="http://github.com/dyegocosta" target="_blank" class="soc-github"><span>GitHub</span></a>
-						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
-						<a href="http://feeds.feedburner.com/DyegoCosta" target="_blank" class="soc-rss"><span>RSS</span></a>
+						<nav>
+							<a href="http://github.com/dyegocosta" target="_blank" class="soc-github"><span>GitHub</span></a>
+							<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
+							<a href="http://feeds.feedburner.com/DyegoCosta" target="_blank" class="soc-rss"><span>RSS</span></a>
+						</nav>
 					</aside>
 				</div>				
 				<footer class="main">										
-					<div id="all_categories">
-						<h3 class="widget_title">Categorias</h3>
+					<section id="all_categories">
+						<h3>Categorias</h3>
 						<ul>
 							<li>
 								<a class="category" href="/all">Todos ({{ site.posts | size }})</a>
@@ -36,9 +38,9 @@
 							</li>
 							{% endfor %}
 						</ul>					
-					</div>
-					<div id="all_tags">
-						<h3 class="widget_title">Tags</h3>
+					</section>
+					<section id="all_tags">
+						<h3>Tags</h3>
 						<ul>
 						{% for tag in site.tags %}
 							<li>
@@ -46,7 +48,7 @@
 							</li>
 						{% endfor %}
 						</ul>					
-					</div>	
+					</section>	
 					<section class="licence">
 						<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
 						<p>Este trabalho foi licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt">Creative Commons - Atribuição-NãoComercial 3.0 Não Adaptada</a>.</p>
