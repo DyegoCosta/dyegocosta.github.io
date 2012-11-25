@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Refatorando para um Design Responsivo"
+title: "Migrando para um Design Responsivo"
 category: Web
 tags: 
 - title: Web standards
