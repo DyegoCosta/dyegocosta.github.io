@@ -7,7 +7,7 @@ title: Dyego Costa
 	<header>
 		<h1 class="post_title"><a href="{{post.url}}">{{ post.title }}</a></h1>
 		<div class="meta">
-			<time datetime="{{ page.date | date: "%Y-%m-%d"}}" pubdate>{{ post.date | date: "%d/%m/%Y" }}</time>
+			<time datetime="{{ post.date | date: "%Y-%m-%d"}}" pubdate>{{ post.date | date: "%d/%m/%Y" }}</time>
 			<div class="post_comments_count">
 				<a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.id}}">Deixe um coment&aacute;rio</a>
 			</div>			
@@ -19,6 +19,8 @@ title: Dyego Costa
 		
 		<a class="keep_reading" href="{{ post.url }}">Continue lendo &rarr;</a>
 	</div>	
+
+	<hr>
 </article>	
 {% endfor %}
 
