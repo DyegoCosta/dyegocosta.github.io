@@ -27,11 +27,14 @@
 					<div id="all_categories">
 						<h3 class="widget_title">Categorias</h3>
 						<ul>
-						{% for category in site.categories %}
+							<li>
+								<a class="category" href="/all">Todos ({{ site.posts | size }})</a>
+							</li>
+							{% for category in site.categories %}
 							<li>
 								<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
 							</li>
-						{% endfor %}
+							{% endfor %}
 						</ul>					
 					</div>
 					<div id="all_tags">
@@ -43,7 +46,11 @@
 							</li>
 						{% endfor %}
 						</ul>					
-					</div>					
+					</div>	
+					<section class="licence">
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+						<p>Este trabalho foi licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt">Creative Commons - Atribuição-NãoComercial 3.0 Não Adaptada</a>.</p>
+					</section>
 				</footer>				
 			</div>			
 		</div>				
