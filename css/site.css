@@ -35,7 +35,7 @@ header.main h1, header.main h1 a, header.main h1 a:visited, header.main h1 a:hov
 }
 
 header.main h2 {
-	font-size: 1em; /* 16px/16px */
+	font-size: 1em; /* 16px */
 	font-weight: normal;
 }
 
@@ -61,6 +61,7 @@ section.page {
 /* Post header */
 
 article.post > header > h1 {
+	font-size: 1.75em;
 	color: #36BCAB;
 	-moz-text-shadow: 2px 2px 2px #ddd;
 	-webkit-text-shadow: 2px 2px 2px #ddd;
@@ -99,7 +100,11 @@ article.post mark {
     font-weight: bold;
 }
 
-article.content p {
+article.post section.content {
+	font-size: 1em;
+}
+
+article.post section.content p {
 	margin:0px 0px 20px;
 }
 
