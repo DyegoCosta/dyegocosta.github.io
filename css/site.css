@@ -60,12 +60,13 @@ section.page {
 
 /* Post header */
 
-article.post > header > h1 {
+article.post header h1 {
 	font-size: 1.75em;
 	color: #36BCAB;
 	-moz-text-shadow: 2px 2px 2px #ddd;
 	-webkit-text-shadow: 2px 2px 2px #ddd;
 	text-shadow: 2px 2px 2px #ddd;
+	margin:20px 0px 0px;
 }
 
 div.meta {
@@ -93,6 +94,15 @@ div.meta .post_comments_count a{
 	text-decoration: none;
 }
 
+article.post section.content h2 {
+	text-shadow:2px 2px 2px #ddd;
+	margin-bottom:5px;
+}
+
+article.post > header > div.meta > div.post_comments_count a {
+	color: #333;
+}
+
 /* Post content */
 
 article.post mark {
@@ -106,21 +116,6 @@ article.post section.content {
 
 article.post section.content p {
 	margin:0px 0px 20px;
-}
-
-article.post > header > h1 {
-	margin:20px 0px 0px;
-	font-size: 1.5em; /* 24px/16px */
-	color: #36BCAB;
-}
-
-article.post > section.content > h2 {
-	text-shadow:2px 2px 2px #ddd;
-	margin-bottom:5px;
-}
-
-article.post > header > div.meta > div.post_comments_count a {
-	color: #333;
 }
 
 article.post p.quote { 
