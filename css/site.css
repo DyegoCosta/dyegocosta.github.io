@@ -1,23 +1,20 @@
 ﻿/* Global */
 
 body {
-	background:url(/images/bg.png);
-	color:#333;font-family:"Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
-	font-weight:100;
+	background: url(/images/bg.png);
+	color:#333;font-family: "Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
+	font-weight: 100;
+	font-size: 100%;
 }
 
 a {
-	color:#36BCAB;
-	text-decoration:none;
+	color: #36BCAB;
+	text-decoration: none;
 }
 
 a:hover {
-	text-decoration:none;
-	border-bottom:1px dotted;
-}
-
-.goLeft { 
-	float:left; 
+	text-decoration: none;
+	border-bottom: 1px dotted;
 }
 
 /* Page header */
@@ -30,11 +27,11 @@ header.main {
 
 header.main h1, header.main h1 a, header.main h1 a:visited, header.main h1 a:hover {
 	font-size: 1.75em; /* 28px/16px */
-	text-shadow:2px 2px 2px #ddd;
-	color:#333;
-	margin:10px;
-	border:none;
-	text-decoration:none;
+	text-shadow: 2px 2px 2px #ddd;
+	color: #333;
+	margin: 10px;
+	border: none;
+	text-decoration: none;
 }
 
 header.main h2 {
@@ -326,7 +323,7 @@ section.pagination .page_number {
 
 /* < 480px */
 
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
 
 	#gitHub-fork {
 		display: none;
