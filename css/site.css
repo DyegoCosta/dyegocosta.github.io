@@ -399,6 +399,10 @@ section.pagination .page_number {
 		text-align: center;
 	}
 
+	article.post header h1 {
+		font-size: 1.9em; /* 16px */		
+	}
+
 	/* Post content */
 
 	article.post {
