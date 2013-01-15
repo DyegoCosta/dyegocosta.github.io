@@ -7,6 +7,10 @@ body {
 	font-size: 100%;
 }
 
+p {
+	line-height: 25px;
+}
+
 a {
 	color: #36BCAB;
 	text-decoration: none;
