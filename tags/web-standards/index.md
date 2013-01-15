@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Posts com a tag WebStandards
-tag: webStandards
+title: Posts com a tag Web Standards
+tag: web-standards
 ---
-<h1 class="category">WebStandards</h1>
+<h1 class="category">Web Standards</h1>
 <ul class="posts">
 	{% for post in site.posts %}				
 	{% for tag in post.tags %}	
