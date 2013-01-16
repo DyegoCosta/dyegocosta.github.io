@@ -9,7 +9,7 @@ tags:
   slug: certificacoes
 ---
 
-Esse vourcher não podia vir em melhor hora pra mim, quase me agendei esse exame nessa semana!   
+Esse voucher não podia vir em melhor hora pra mim, quase me agendei esse exame nessa semana!   
 
 Uma ótima oportunidade para quem trabalha com front-end (Web e/ou Windows Store Apps), ou gostaria de começar! A Microsoft está disponibilizando um curso sobre HTML5, CSS3 e Javascript que ajudará bastante quem gostaria de aprender HTML5, CSS3 e Javascript e/ou realizar o exame <mark>[HTML5 with JavaScript and CSS3 exam (70-480)][certificacao]</mark>, **de graça**!
 
@@ -17,9 +17,11 @@ Uma ótima oportunidade para quem trabalha com front-end (Web e/ou Windows Store
 
 O curso está disponível na [Microsoft Virtual Academy][MSA] e você pode acessar diretamente por esse [link][promocao] e para agentar o exame através vá até a <a href="http://www.microsoft.com/learning/en/us/exam.aspx?id=70-480" target="_blank">página oficial do exame</a> clique em *Schedule* que será redirecionado ao site da Prometric, onde poderá fazer o agendamento utilizando o código <mark>HTMLJMP</mark>. O voucher estará disponível até 31/3/2013 **enquanto durar o estoque**!  
 
-Já estou agendado meu exame e garantindo minha vaga. Não perca essa chance :-)  
+Já estou agendando meu exame e garantindo minha vaga. Não perca essa chance :-)  
 
 Abraços
+
+EDIT: Passei no exame dia 21/11/12 :-D
 
 [certificacao]: http://www.microsoft.com/learning/en/us/exam.aspx?id=70-480
 [MSA]: http://www.microsoftvirtualacademy.com
