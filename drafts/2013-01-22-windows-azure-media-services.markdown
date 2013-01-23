@@ -14,8 +14,7 @@ Começa aqui uma série na qual irei destrinchar as funcionalidades do Windows A
 
 ## Para o que estamos olhando aqui?
 
-Para o Windows Azure Media Services.
-*Windows Azure Media Services* é um conjunto de componentes para criação de workflows de mídias customizados em um ambiente flexível, escalável e segurço. Com esse serviço você pode criar workflows para diversos fins, o suporte vai desde o transporte das mídias para a nuvem até a entrega deste conteúdo para qualquer disposítivo suportado, praticamente qualquer um. 
+O **Windows Azure Media Services** é um conjunto de componentes para criação de workflows de mídias customizados em um ambiente flexível, escalável e segurço. Com esse serviço você pode criar workflows para diversos fins, o suporte vai desde o transporte das mídias para a nuvem até a entrega deste conteúdo para qualquer disposítivo suportado, praticamente qualquer um. 
 Vai depender da ideia e necessidade de seu negócio na hora de escolher o que usar do serviço, pois cada componente pode atender demandas diferentes.
 
 <img src="/posts_images/22-01-media-services.png" class="post_img" />   
@@ -31,14 +30,24 @@ Atualmente utilizando o Windows Azure Media Encoder suporta diversos formatos, o
 Você pode ver uma lista completa dos atuais formatos de mídia, tanto de importação como para exportação, através deste [link][encoding].  
 Também é possível utilizar encoders de terceiros, que estão disponíveis no [Windows Azure Marketplace][mkt_place].
 
-### Packing
+### Content protection
+
+Nem sempre você quer disponbilizar seu conteúdo publicamente. A proteção de conteúdo se torna bastante interessante quando você quer monetizar o que está distribuido.  
+Além das formas de criptografia como PlayReady, Common Encryption e AES, as tecnologias disponbilizadas atualmente para proteger sua distribuição são o [Smooth Streaming][smooth-streaming] e o [Apple HLS][apple-hls]. Mas também é válido lembrar que a Microsoft está criando vínculos com outras empresas para disponilizarem novas formas de proteção de conteúdo, como para todos os outros componentes do serviço.
+
+### On-Demand Streaming
+
+O componente está integrado com o Azure CDN (e também com CDN de terceiros, Akamai), então todo o conteúdo distribuido sob demanda será enviado dos servidores mais próximos de quem está requisitando.  
+Largura de banda garantida, assim como auto recovery, redundância de conteúdo para caso de queda e alta disponbilidade.
+Uma coisa bacana de se fazer streaming com esse serviço é o Dynamic Remux que permite que você tenha armazenado seu conteúdo de vídeo no formato MP4 e o disponibilize em diversos outros formatos, o que reduz o espaço de armazenamento utilizado, logo, o custo.
 
 ## Motivações
 
-Por que esse serviço existe? Porque a Microsoft quis :-P  
 YouTube, Netflix, Hulu, Quickflix, etc. Esses são exemplos de alguns serviços disponibilizados sobre uma plataforma de entrega de mídias. Esse mercado está crescendo absurdamente, dica. O Windows Azure Media Services está aí também para suprir esse mercado, dando suporte completo para a entrega de mídias de uma maneira fácil e poderosa.
 
-Por que eu estou escrevendo sobre isso? Geralmente a resposta seria "porque eu quero", o que é meio obvio, mas dessa vez o que mais me motivou a aprender e trazer pra cá sobre esse assunto é o fato de que podemos encontrar facilmente vários posts falando que esse serviço existe, mas não como funciona (além de na documentação né gente, pfv). Então vamos pular de cabeça no que temos disponível hoje para aprender tudo que esse serviço nos prove *atualmente*.
+O que mais me motivou a aprender e compartilhar sobre esse assunto é o fato de que podemos encontrar facilmente vários lugares falando que esse serviço existe, mas não como funciona (além de na documentação né, pfv). Então vamos pular de cabeça no que temos disponível hoje para aprender tudo que esse serviço nos prove *atualmente*.
 
 [encoding]: http://msdn.microsoft.com/en-us/library/windowsazure/hh973634.aspx#import_formats
 [mkt_place]: https://datamarket.azure.com/
+[smooth-streaming]: http://www.iis.net/downloads/microsoft/smooth-streaming
+[apple-hls]: https://developer.apple.com/resources/http-streaming/
