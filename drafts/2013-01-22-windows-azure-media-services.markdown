@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Solu&ccedil;&otilde;es de m&iacute;dias de ponta-a-ponta na nuvem com o Windows Azure Media Services"
+title: "Solu&ccedil;&otilde;es de m&iacute;dias na nuvem com o Windows Azure Media Services"
 category: Windows Azure
 tags: 
 - title: Windows Azure Media Services
