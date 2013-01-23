@@ -22,11 +22,16 @@ Vai depender da ideia e necessidade de seu negócio na hora de escolher o que us
 
 ### Ingest  
 
-A primeira coisa que você quer fazer é subir seu conteúdo pra nuvem e para isso você pode optar por transferir via HTTP/HTTPS ou via UDP, o que torna a transferencia bem mais rápida.  
-Também é possível fazer uma pré-criptografia do arquivo antes de armazena-lo na nuvem
+A primeira coisa que você quer fazer é subir seu conteúdo pra nuvem e para isso você pode optar por transferir via HTTP/HTTPS. Também é possível fazer o upload via UDP, que torna a transferência bem mais rápida do que via HTTP.  
+Também é possível fazer uma pré-criptografia (AES 256) do arquivo antes de armazena-lo na nuvem
 
+### Encoding
 
+Atualmente utilizando o Windows Azure Media Encoder suporta diversos formatos, o que levará a sua decisão de quando usar um ou outro é o tipo de aparelho para o qual você irá entregar essa mídia.
+Você pode ver uma lista completa dos atuais formatos de mídia, tanto de importação como para exportação, através deste [link][encoding].  
+Também é possível utilizar encoders de terceiros, que estão disponíveis no [Windows Azure Marketplace][mkt_place].
 
+### Packing
 
 ## Motivações
 
@@ -34,3 +39,6 @@ Por que esse serviço existe? Porque a Microsoft quis :-P
 YouTube, Netflix, Hulu, Quickflix, etc. Esses são exemplos de alguns serviços disponibilizados sobre uma plataforma de entrega de mídias. Esse mercado está crescendo absurdamente, dica. O Windows Azure Media Services está aí também para suprir esse mercado, dando suporte completo para a entrega de mídias de uma maneira fácil e poderosa.
 
 Por que eu estou escrevendo sobre isso? Geralmente a resposta seria "porque eu quero", o que é meio obvio, mas dessa vez o que mais me motivou a aprender e trazer pra cá sobre esse assunto é o fato de que podemos encontrar facilmente vários posts falando que esse serviço existe, mas não como funciona (além de na documentação né gente, pfv). Então vamos pular de cabeça no que temos disponível hoje para aprender tudo que esse serviço nos prove *atualmente*.
+
+[encoding]: http://msdn.microsoft.com/en-us/library/windowsazure/hh973634.aspx#import_formats
+[mkt_place]: https://datamarket.azure.com/
