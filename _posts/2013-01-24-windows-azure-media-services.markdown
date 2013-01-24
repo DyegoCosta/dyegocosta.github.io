@@ -38,7 +38,7 @@ Também é válido lembrar que a Microsoft está criando vínculos com outras em
 
 ### On-Demand Streaming
 
-O componente está integrado com o Azure CDN (e também com CDN de terceiros, Akamai), então todo o conteúdo distribuido sob demanda será enviado dos servidores mais próximos de quem está requisitando.  
+O componente está integrado com o [Azure CDN][azure-cdn] (e também com CDN de terceiros, e.g. Akamai), então todo o conteúdo distribuido sob demanda será enviado dos servidores mais próximos de quem está requisitando.  
 Largura de banda garantida, assim como auto recovery, redundância de conteúdo para caso de queda e alta disponbilidade.
 Uma coisa bacana de se fazer streaming com esse serviço é o Dynamic Remux que permite que você tenha armazenado seu conteúdo de vídeo no formato MP4 e o disponibilize em diversos outros formatos, o que reduz o espaço de armazenamento utilizado, logo, o custo.
 
@@ -53,3 +53,4 @@ O que mais me motivou a aprender e compartilhar sobre esse assunto é o fato de 
 [smooth-streaming]: http://www.iis.net/downloads/microsoft/smooth-streaming
 [apple-hls]: https://developer.apple.com/resources/http-streaming/
 [playready]: http://www.microsoft.com/playready/
+[azure-cdn]: http://www.windowsazure.com/en-us/home/features/caching/
