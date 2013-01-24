@@ -26,14 +26,14 @@ Também é possível fazer uma pré-criptografia (AES 256) do arquivo antes de a
 
 ### Encoding
 
-Atualmente utilizando o Windows Azure Media Encoder suporta diversos formatos, o que levará a sua decisão de quando usar um ou outro é o tipo de aparelho para o qual você irá entregar essa mídia.
+Atualmente o Windows Azure Media Encoder suporta diversos formatos, o que levará a sua decisão de quando usar um ou outro é o tipo de aparelho para o qual você irá entregar essa mídia.
 Você pode ver uma lista completa dos atuais formatos de mídia, tanto de importação como para exportação, através deste [link][encoding].  
 Também é possível utilizar encoders de terceiros, que estão disponíveis no [Windows Azure Marketplace][mkt_place].
 
 ### Content protection
 
 Nem sempre você quer disponbilizar seu conteúdo publicamente. A proteção de conteúdo se torna bastante interessante quando você quer monetizar o que está distribuido.  
-Além das formas de criptografia como PlayReady, Common Encryption e AES, as tecnologias disponbilizadas atualmente para proteger sua distribuição são o [Smooth Streaming][smooth-streaming] e o [Apple HLS][apple-hls]. Mas também é válido lembrar que a Microsoft está criando vínculos com outras empresas para disponilizarem novas formas de proteção de conteúdo, como para todos os outros componentes do serviço.
+As atuais formas de criptografia são o [PlayReady][playready], Common Encryption e AES, e essas tecnologias estão disponíveis para os conteúdos transmitidos via [Smooth Streaming][smooth-streaming] e/ou [Apple HLS][apple-hls]. Mas também é válido lembrar que a Microsoft está criando vínculos com outras empresas para disponilizarem novas formas de proteção de conteúdo, assim como estão fazendo para todos os outros componentes do serviço.
 
 ### On-Demand Streaming
 
@@ -51,3 +51,4 @@ O que mais me motivou a aprender e compartilhar sobre esse assunto é o fato de 
 [mkt_place]: https://datamarket.azure.com/
 [smooth-streaming]: http://www.iis.net/downloads/microsoft/smooth-streaming
 [apple-hls]: https://developer.apple.com/resources/http-streaming/
+[playready]: http://en.wikipedia.org/wiki/PlayReady
