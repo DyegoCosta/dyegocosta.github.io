@@ -87,11 +87,11 @@ div.meta .post_comments_count, .meta time {
 
 div.meta time {
 	margin-right:35px;
-	background:url("/images/dateIcon.gif") no-repeat scroll left 6px transparent;
+	background:url("/images/dateIcon.gif") no-repeat scroll left 10px transparent;
 }
 
 div.meta .post_comments_count{
-	background:url("/images/commentsIcon.gif") no-repeat scroll left 6px transparent;
+	background:url("/images/commentsIcon.gif") no-repeat scroll left 10px transparent;
 }
 
 div.meta .post_comments_count a{

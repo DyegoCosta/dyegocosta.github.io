@@ -1,21 +1,19 @@
 --- 
 layout: post
 title: 'Utilizando o Windows Azure Online Backup'
-category: Windows Azure
+category: 'Windows Azure'
 tags: 
 - title: Backup
   slug: backup
 - title: Windows Server 2012
   slug: windows-server-2012
-- title: Cloud
-  slug: cloud
 ---
 
 Nessa última semana eu vesti o boné de infra para testar o preview do Windows Azure Online Backup em uma máquina com o Windows Server 2012 Datacenter. De fato o processo para que você possa manter suas cópias de segurança nas nuvens é trivial, muito fácil.
 
 Foi bem divertido o desafio, já que nunca trabalhei com o Windows Server. Subi uma VM com o Windows Server 2012 Datacenter, instalei algumas roles e features, configurei um domínio no AD, criei um usuário e fiz um backup local. Coisas banais mas divertidas pra mim, por não ser o meu dia-a-dia. Tudo isso com a ajuda de meu amigo [João Fuzinelli][fenrizio] :-)
 
-Atualmente este serviço está na versão de avaliação, e é suportado nos ambientes Windows Server 2012, Windows Server 2012 Essentials, e System Center 2012.
+Atualmente este serviço está na versão de avaliação e é suportado nos ambientes Windows Server 2012, Windows Server 2012 Essentials, e System Center 2012.
 
 Para utilizar o serviço é necessário que faça sua inscrição para a versão de avaliação através deste [link][online-backup-register], que é para um contrato de seis meses gratuitos de avaliação. Tendo feito o cadastro, é necessário que você baixe e instale o agente de backup em seu ambiente. O agente pode ser baixado através deste [link][agente].
 
@@ -36,15 +34,20 @@ Para o agendamento de uma cópia de segurança é preciso criar uma política de
 
 <script src="https://gist.github.com/4542927.js?file=Política.ps1"></script>
 
-Tendo criado a política você já pode ficar seguro de que nos horarios da agenda configurada serão feitas as cópias de segurança para a nuvem, as quais poderão ser recuperadas durante seu período de vida, que também foi definido na política.  
+Tendo criado a política você já pode ficar seguro de que nos horários da agenda configurada serão feitas as cópias de segurança para a nuvem, as quais poderão ser recuperadas durante seu período de vida, que também foi definido na política.  
 Utilizando essa política também é possível fazer um backup instantâneo, o qual utilizará as configurações da política e criara o backup na hora.  
 Para criação de um backup instantâneo através de uma política existente é utilizado o comando abaixo.
 
 <script src="https://gist.github.com/4543181.js?file=Backup_now.ps1"></script>
 
+## Qual é o antônimo de registrar?
+
+Durma com essa.  
+Caso você queira cancelar o registro do seu ambiente
+
 ## Onde estão seus arquivos
 
-Na imagem a baixo você pode ver os atuais servidores, e seu status, onde estão armazenados as cópias de segurança feitas através do serviço. Essa informação pode ser vista através do [portal][portal] do Windows Azure Backup.
+Na imagem a baixo você pode ver os atuais servidores e seu status, onde estão armazenados as cópias de segurança feitas através do serviço. Essa informação pode ser vista através do [portal][portal] do Windows Azure Backup.
 
 <img src="/posts_images/15-01-service-health.jpg" class="post_img" />
 
