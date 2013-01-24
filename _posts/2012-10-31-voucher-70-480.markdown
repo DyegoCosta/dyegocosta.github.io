@@ -5,7 +5,7 @@ category: Dicas
 tags: 
 - title: Microsoft
   slug: microsoft
-- title: Certificacoes
+- title: Certifica&ccedil;&otilde;es
   slug: certificacoes
 ---
 
