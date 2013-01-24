@@ -33,7 +33,8 @@ Também é possível utilizar encoders de terceiros, que estão disponíveis no 
 ### Content protection
 
 Nem sempre você quer disponbilizar seu conteúdo publicamente. A proteção de conteúdo se torna bastante interessante quando você quer monetizar o que está distribuido.  
-As atuais formas de criptografia são o [PlayReady][playready], Common Encryption e AES, e essas tecnologias estão disponíveis para os conteúdos transmitidos via [Smooth Streaming][smooth-streaming] e/ou [Apple HLS][apple-hls]. Mas também é válido lembrar que a Microsoft está criando vínculos com outras empresas para disponilizarem novas formas de proteção de conteúdo, assim como estão fazendo para todos os outros componentes do serviço.
+As atuais formas de criptografia são o [PlayReady][playready], Common Encryption e AES, e essas tecnologias estão disponíveis para os conteúdos transmitidos via [Smooth Streaming][smooth-streaming] e/ou [Apple HLS][apple-hls].  
+Também é válido lembrar que a Microsoft está criando vínculos com outras empresas para disponilizarem novas formas de proteção de conteúdo, assim como estão fazendo para todos os outros componentes do serviço.
 
 ### On-Demand Streaming
 
@@ -51,4 +52,4 @@ O que mais me motivou a aprender e compartilhar sobre esse assunto é o fato de 
 [mkt_place]: https://datamarket.azure.com/
 [smooth-streaming]: http://www.iis.net/downloads/microsoft/smooth-streaming
 [apple-hls]: https://developer.apple.com/resources/http-streaming/
-[playready]: http://en.wikipedia.org/wiki/PlayReady
+[playready]: http://www.microsoft.com/playready/
