@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "'Testes com Jasmine' meu primeiro artigo na .NET Magazine"
+title: "'Testes com Jasmine' meu primeiro artigo na &#46;NET Magazine"
 category: Artigo
 tags: 
 - title: .NET Magazine
