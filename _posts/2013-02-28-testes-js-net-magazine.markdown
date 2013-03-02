@@ -3,7 +3,7 @@ layout: post
 title: "'Testes com Jasmine' meu primeiro artigo na &#46;NET Magazine"
 category: Artigo
 tags: 
-- title: .NET Magazine
+- title: &#46;NET Magazine
   slug: net-magazine
 ---
 Fala galera, beleza?  
