@@ -21,6 +21,10 @@ a:hover {
 	border-bottom: 1px dotted;
 }
 
+img {
+	max-width: 95%;
+}
+
 /* Page header */
 
 header.main {
