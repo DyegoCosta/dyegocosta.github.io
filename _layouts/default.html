@@ -1,84 +1,87 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<meta name="viewport" content="width=device-width" />
-		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />		
-		<link rel="stylesheet" href="/css/site.css" type="text/css"/>				
-		<title>{{ page.title }}</title>		
-	</head>	
-	<body>
-		<div id="page">
-			<header class="main">			
-				<h1><a href="/">Dyego "com y" Costa</a></h1>
-				<!--<h2>{ desenvolvimento de software, pr&aacute;ticas, metodologias, novidades, princ&iacute;pios }</h2>-->
-			</header>			
-			<div class="container">	
-				<div id="content">
-					<section class="page">
-						{{content}}
-					</section>
-					<aside class="contact_fixed">						
-						<nav>
-							<a href="http://github.com/dyegocosta" target="_blank" class="soc-github"><span>GitHub</span></a>
-							<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
-							<a href="http://feeds.feedburner.com/DyegoCosta" target="_blank" class="soc-rss"><span>RSS</span></a>
-						</nav>
-					</aside>
-				</div>				
-				<footer class="main">										
-					<section id="all_categories">
-						<h3>Categorias</h3>
-						<ul>
-							<li>
-								<a class="category" href="/all">Todos ({{ site.posts | size }})</a>
-							</li>
-							{% for category in site.categories %}
-							<li>
-								<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
-							</li>
-							{% endfor %}
-						</ul>					
-					</section>
-					<section id="all_tags">
-						<h3>Tags</h3>
-						<ul>
-						{% for tag in site.tags %}
-							<li>
-								<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
-							</li>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width" />
+	<meta name="author" CONTENT="Dyego Costa"> 
+	<meta name="description" CONTENT="Dyego Costa">
+	<meta name="keywords" content="dyego costa,Dyego Costa,dyego.costa,dyego,{{ page.keywords }}">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />		
+	<link rel="stylesheet" href="/css/site.css" type="text/css"/>				
+	<title>{{ page.title }}</title>		
+</head>	
+<body>
+	<div id="page">
+		<header class="main">			
+			<h1><a href="/">Dyego "com y" Costa</a></h1>
+			<!--<h2>{ desenvolvimento de software, pr&aacute;ticas, metodologias, novidades, princ&iacute;pios }</h2>-->
+		</header>			
+		<div class="container">	
+			<div id="content">
+				<section class="page">
+					{{content}}
+				</section>
+				<aside class="contact_fixed">						
+					<nav>
+						<a href="http://github.com/dyegocosta" target="_blank" class="soc-github"><span>GitHub</span></a>
+						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
+						<a href="http://feeds.feedburner.com/DyegoCosta" target="_blank" class="soc-rss"><span>RSS</span></a>
+					</nav>
+				</aside>
+			</div>				
+			<footer class="main">										
+				<section id="all_categories">
+					<h3>Categorias</h3>
+					<ul>
+						<li>
+							<a class="category" href="/all">Todos ({{ site.posts | size }})</a>
+						</li>
+						{% for category in site.categories %}
+						<li>
+							<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
+						</li>
 						{% endfor %}
-						</ul>					
-					</section>	
-					<section class="licence">
-						<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
-						<p>Este trabalho foi licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt">Creative Commons - Atribuição-NãoComercial 3.0 Não Adaptada</a>.</p>
-					</section>
-				</footer>				
-			</div>			
-		</div>				
-		<a id="gitHub-fork" href="http://github.com/dyegocosta/dyegocosta.github.com"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
-		<script type="text/javascript">			
-			var disqus_shortname = 'dyegocosta';
-					
-			(function () {
-				var s = document.createElement('script'); 
-				s.async = true;
-				s.type = 'text/javascript';
-				s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-				(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-			}());
-		</script>
-		<script type="text/javascript">
-  			var _gaq = _gaq || [];
-  			_gaq.push(['_setAccount', 'UA-24989932-2']);
-  			_gaq.push(['_trackPageview']);
+					</ul>					
+				</section>
+				<section id="all_tags">
+					<h3>Tags</h3>
+					<ul>
+						{% for tag in site.tags %}
+						<li>
+							<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
+						</li>
+						{% endfor %}
+					</ul>					
+				</section>	
+				<section class="licence">
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+					<p>Este trabalho foi licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt">Creative Commons - Atribuição-NãoComercial 3.0 Não Adaptada</a>.</p>
+				</section>
+			</footer>				
+		</div>			
+	</div>				
+	<a id="gitHub-fork" href="http://github.com/dyegocosta/dyegocosta.github.com"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://a248.e.akamai.net/camo.github.com/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub"></a>
+	<script type="text/javascript">			
+	var disqus_shortname = 'dyegocosta';
 
-  			(function() {
-    				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  			})();
-		</script>		
-	</body>
+	(function () {
+		var s = document.createElement('script'); 
+		s.async = true;
+		s.type = 'text/javascript';
+		s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+	}());
+	</script>
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-24989932-2']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>		
+</body>
 </html>

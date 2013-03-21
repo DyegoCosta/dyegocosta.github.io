@@ -2,8 +2,9 @@
 layout: post
 title: "'Testes com Jasmine' meu primeiro artigo na &#46;NET Magazine"
 category: Artigo
+keywords: "artigo,net magazine, .net, javascript, testes, jasmine, .net magazine, magazine, testes de javascript"
 tags: 
-- title: &#46;NET Magazine
+- title: .NET Magazine
   slug: net-magazine
 ---
 Fala galera, beleza?  
