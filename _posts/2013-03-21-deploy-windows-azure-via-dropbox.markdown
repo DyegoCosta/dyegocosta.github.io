@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure <3 Dropbox"
 category: Windows Azure
-keywords: "azure,windows azure,dropbox,deploy,deploy automatizado,windows azure web sites,web sites,skydrive,Windows Azure SDK,sdk"
+keywords: "azure, windows azure, cloud, nuvem, computacao nas nuvens, internet, cloud computing, windows, microsoft,dropbox,deploy,deploy automatizado,windows azure web sites,web sites,skydrive,Windows Azure SDK,sdk"
 tags: 
 - title: Windows Azure Web Sites
   slug: windows-azure-web-sites

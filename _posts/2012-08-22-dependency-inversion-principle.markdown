@@ -2,6 +2,7 @@
 layout: post
 title: 'Dependency Inversion Principle'
 category: OOP
+keywords: "oop, solid, SOLID, OOP, OO, POO, principios solid, solid principles, poo, oo, dip, DIP, Dependency Inversion Principle"
 tags: 
 - title: SOLID
   slug: solid

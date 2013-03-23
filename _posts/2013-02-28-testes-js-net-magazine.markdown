@@ -2,7 +2,7 @@
 layout: post
 title: "'Testes com Jasmine' meu primeiro artigo na &#46;NET Magazine"
 category: Artigo
-keywords: "artigo,net magazine, .net, javascript, testes, jasmine, .net magazine, magazine, testes de javascript"
+keywords: "artigo,net magazine, netmagazine, .net, javascript, testes, jasmine, .net magazine, magazine, testes de javascript, html, publicacao, bdd, teste de javascript, test, tests, devmedia"
 tags: 
 - title: .NET Magazine
   slug: net-magazine

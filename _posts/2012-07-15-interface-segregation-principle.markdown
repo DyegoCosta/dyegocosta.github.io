@@ -2,6 +2,7 @@
 layout: post
 title: 'Interface Segregation Principle'
 category: OOP
+keywords: "oop, solid, SOLID, OOP, OO, POO, principios solid, solid principles, poo, oo, isp, ISP, Interface Segregation Principle"
 tags: 
 - title: SOLID
   slug: solid

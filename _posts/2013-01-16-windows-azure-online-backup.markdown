@@ -2,6 +2,7 @@
 layout: post
 title: 'Utilizando o Windows Azure Online Backup'
 category: 'Windows Azure'
+keywords: "azure, windows azure, cloud, nuvem, computacao nas nuvens, internet, cloud computing, windows, microsoft, backup, online backup, windows azure online backup"
 tags: 
 - title: Backup
   slug: backup

@@ -2,6 +2,7 @@
 layout: post
 title: "Teste seu Javascript no DevDay 2012"
 category: Palestra
+keywords: "palestra, javascript, html, web, testes, testes de javascript, teste, teste de javascript, devday, jasmine, spa, single page application, evento de ti, evento de tecnologia"
 tags: 
 - title: Javascript
   slug: javascript

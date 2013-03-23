@@ -2,6 +2,7 @@
 layout: post
 title: 'Single Responsability Principle'
 category: OOP
+keywords: "oop, solid, SOLID, OOP, OO, POO, principios solid, solid principles, poo, oo, Single Responsability Principle, SRP, srp, responsabilidade unica"
 tags: 
 - title: SOLID
   slug: solid

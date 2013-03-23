@@ -2,6 +2,7 @@
 layout: post
 title: 'SOLID Principles'
 category: OOP
+keywords: "oop, solid, SOLID, OOP, OO, POO, principios solid, solid principles, poo, oo, Single Responsability Principle, SRP, srp, Open Close Principle, ocp, OCP, Liskov Substitution Principle, lsp, LSP, Interface Segregation Principle, isp, ISP, Dependency Inversion Principle, DIP, dip"
 tags: 
 - title: SOLID
   slug: solid

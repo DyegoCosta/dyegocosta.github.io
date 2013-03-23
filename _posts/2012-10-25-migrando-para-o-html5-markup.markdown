@@ -2,6 +2,7 @@
 layout: post
 title: 'Migrando para o HTML5 Markup'
 category: Web
+keywords: "html, html5, web standars, web standard, markup, javascript, api, api javascript, tag, tags, seo, SEO, Jekyll, jekyll"
 tags: 
 - title: HTML
   slug: html
@@ -55,12 +56,13 @@ Passei a utilizar algumas das novas tags que vieram com o HTML5, vamos ver o que
 	<article class="post">	
 		<header>
 			<h1 class="post_title">{{ page.title }}</h1>
-			<div class="index_meta">
-				<div class="post_date">{{ page.date | date: "%d/%m/%Y" }}</div>
+			<div class="meta">
+				<time datetime="{{ page.date | date: "%Y-%m-%d"}}" pubdate>{{ page.date | date: "%d/%m/%Y" }}</time>
 				<div class="post_comments_count">
-					<a href="{{page.url}}#disqus_thread" data-disqus-identifier="{{page.id}}">Deixe um coment&aacute;rio</a></div>			
+					<a href="{{page.url}}#disqus_thread" data-disqus-identifier="{{page.id}}">Deixe um coment&aacute;rio</a>
+				</div>			
 			</div>
-		<header>
+		</header>
 		
 		<section class="content">
 			{{ content }}

@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: 'Liskov Substitution Principle'
+keywords: "oop, solid, SOLID, OOP, OO, POO, principios solid, solid principles, poo, oo, Open Closed Principle, ocp, OCP, substituicao de liskov, lsp, LSP"
 category: OOP
 tags: 
 - title: SOLID

@@ -2,6 +2,7 @@
 layout: post
 title: 'Curso e voucher para o exame 70-480'
 category: Dicas
+keywords: "70 480, 70-480, 480, Certifica&ccedil;&otilde;es, certifica&ccedil;&otilde;es microsoft, Microsoft, certification, html5, css3, html, css, mva, microsoft virtual academy, voucher, brinde, gratis, oportunidade, front-end, javascript, exame, prova, jump start, htmljmp, HTMLJMP"
 tags: 
 - title: Microsoft
   slug: microsoft
@@ -21,7 +22,7 @@ Já estou agendando meu exame e garantindo minha vaga. Não perca essa chance :-
 
 Abraços
 
-EDIT: Passei no exame dia 21/11/12 :-D
+EDIT: Passei no exame dia 21/11/12 utilizando o voucher :-D
 
 [certificacao]: http://www.microsoft.com/learning/en/us/exam.aspx?id=70-480
 [MSA]: http://www.microsoftvirtualacademy.com

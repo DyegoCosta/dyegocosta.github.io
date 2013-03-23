@@ -2,6 +2,7 @@
 layout: post
 title: 'Primeiros passos com o Selenium WebDriver'
 category: Testes
+keywords: "selenium, webdriver, selenium webdriver, howto, primeiros passos, testes de interface, teste, testes, teste de interface, web"
 tags: 
 - title: Selenium
   slug: selenium

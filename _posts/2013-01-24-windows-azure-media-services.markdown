@@ -2,6 +2,7 @@
 layout: post
 title: "Solu&ccedil;&otilde;es de m&iacute;dias na nuvem com o Windows Azure Media Services"
 category: Windows Azure
+keywords: "azure, windows azure, cloud, nuvem, computacao nas nuvens, internet, cloud computing, windows, microsoft, windows azure media services, media services, media, medias, m&iacute;dias, m&iacute;dia"
 tags: 
 - title: Windows Azure Media Services
   slug: windows-azure-media-services

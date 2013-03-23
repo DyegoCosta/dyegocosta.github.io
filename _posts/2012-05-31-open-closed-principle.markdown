@@ -2,6 +2,7 @@
 layout: post
 title: 'Open/Closed Principle'
 category: OOP
+keywords: "oop, solid, SOLID, OOP, OO, POO, principios solid, solid principles, poo, oo, Open Closed Principle, ocp, OCP, Principio aberto fechado"
 tags: 
 - title: SOLID
   slug: solid
