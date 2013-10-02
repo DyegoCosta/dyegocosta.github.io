@@ -6,57 +6,23 @@
 	<meta name="author" CONTENT="Dyego Costa"> 
 	<meta name="description" CONTENT="Dyego Costa">
 	<meta name="keywords" content="dyego costa,Dyego Costa,dyego.costa,dyego, dyegoscosta, dyego_costa, costa, dyego de souza costa, dyego de souza, dyego souza,{{ page.keywords }}">
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />		
-	<link rel="stylesheet" href="/css/site.css" type="text/css"/>				
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />	
+  <link rel="stylesheet" href="/css/site.css" type="text/css"/>				
 	<title>{{ page.title }}</title>		
 </head>	
 <body>
 	<div id="page">
 		<header class="main">			
-			<h1><a href="/">Dyego "com y" Costa</a></h1>
+      <h1>
+        <a href="/">Dyego "com y" Costa</a>
+      </h1>
 		</header>			
 		<div class="container">	
 			<div id="content">
 				<section class="page">
 					{{content}}
 				</section>
-				<aside class="contact_fixed">						
-					<nav>
-						<a href="http://github.com/dyegocosta" target="_blank" class="soc-github"><span>GitHub</span></a>
-						<a href="http://twitter.com/dyegoscosta" target="_blank" class="soc-twitter"><span>@dyegoscosta</span></a>						
-						<a href="http://feeds.feedburner.com/DyegoCosta" target="_blank" class="soc-rss"><span>RSS</span></a>
-					</nav>
-				</aside>
 			</div>				
-			<footer class="main">										
-				<section id="all_categories">
-					<h3>Categorias</h3>
-					<ul>
-						<li>
-							<a class="category" href="/all">Todos ({{ site.posts | size }})</a>
-						</li>
-						{% for category in site.categories %}
-						<li>
-							<a class="category" href="/categories/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
-						</li>
-						{% endfor %}
-					</ul>					
-				</section>
-				<section id="all_tags">
-					<h3>Tags</h3>
-					<ul>
-						{% for tag in site.tags %}
-						<li>
-							<a href="/tags/{{ tag | first | map: 'to_liquid' | map: 'slug' }}">{{ tag | first | map: 'to_liquid' | map: 'title' }}</a>
-						</li>
-						{% endfor %}
-					</ul>					
-				</section>	
-				<section class="licence">
-					<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
-					<p>Este trabalho foi licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.pt">Creative Commons - Atribuição-NãoComercial 3.0 Não Adaptada</a>.</p>
-				</section>
-			</footer>				
 		</div>			
 	</div>				
 	<script type="text/javascript">			

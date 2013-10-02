@@ -1,8 +1,9 @@
 ﻿/* Global */
 
 body {
-	background: url(/images/bg.png);
-	color:#333;font-family: "Segoe UI Light", "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
+	background-color: #454849; 
+	color:#333;
+  font-family: Arial, Helvetica, sans-serif;
 	font-weight: 100;
 	font-size: 100%;
 }
@@ -12,13 +13,13 @@ p {
 }
 
 a {
-	color: #36BCAB;
+	color: #428bca;
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
-	border-bottom: 1px dotted;
+  text-decoration: underline;
+  color: #2a6496;
 }
 
 img {
@@ -30,21 +31,27 @@ img {
 header.main {
 	text-align:center;
 	max-width: 80%;
-	margin:auto;
+	margin: 30px auto;
 }
 
 header.main h1, header.main h1 a, header.main h1 a:visited, header.main h1 a:hover {
-	font-size: 1.75em; /* 28px/16px */
-	text-shadow: 2px 2px 2px #ddd;
-	color: #333;
+	font-size: 2em; /* 28px/16px */
+	color: #FFF;
 	margin: 10px;
 	border: none;
 	text-decoration: none;
 }
 
-header.main h2 {
-	font-size: 1em; /* 16px */
-	font-weight: normal;
+/* About */
+section.about h1 {
+  text-align: center;
+  font-size: 1.6em;
+  color: lightcoral;
+}
+
+section.about p {
+  font-size: 1.2em;
+  text-align: center;
 }
 
 /* Page */
@@ -57,7 +64,6 @@ div.container {
 	background-color:White;
 	max-width: 80%;
 	margin:0 auto 60px auto;
-	border-top:2px solid #36BCAB;
 	margin-top:15px;
 }
 
@@ -70,7 +76,6 @@ section.page {
 
 article.post header h1 {
 	font-size: 1.75em;
-	color: #36BCAB;
 	-moz-text-shadow: 2px 2px 2px #ddd;
 	-webkit-text-shadow: 2px 2px 2px #ddd;
 	text-shadow: 2px 2px 2px #ddd;
@@ -307,6 +312,10 @@ section.pagination .page_number {
 	margin: 30px 30% auto;
 }
 
+ul.old-posts-list li {
+  list-style: none;
+}
+
 /* Media queries */
 
 /* > 1700px */
@@ -470,3 +479,5 @@ section.pagination .page_number {
 		display: none;
 	}
 }
+
+

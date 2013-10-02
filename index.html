@@ -2,44 +2,12 @@
 layout: default
 title: Dyego Costa
 ---
-{% for post in paginator.posts %}
-<article class="post">
-	<header>
-		<h1 class="post_title"><a href="{{post.url}}">{{ post.title }}</a></h1>
-		<div class="meta">
-			<time datetime="{{ post.date | date: "%Y-%m-%d"}}" pubdate>{{ post.date | date: "%d/%m/%Y" }}</time>
-			<div class="post_comments_count">
-				<a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.id}}">Deixe um coment&aacute;rio</a>
-			</div>			
-		</div>
-	</header>
 
-	<div class="post_content">
-		{{ post.content | truncate: 240 }}  
-		
-		<a class="keep_reading" href="{{ post.url }}">Continue lendo &rarr;</a>
-	</div>	
+<section class="about">
+  <article>
+    <h1>Hi there! I'm making some changes arround here!</h1>
 
-	<hr>
-</article>	
-{% endfor %}
-
-<section class="pagination">
-	{% if paginator.previous_page %}
-		<span class="previous">
-			{% if paginator.previous_page == 1 %}
-			<a href="/">Anterior</a>
-			{% else %}
-			<a href="/page{{paginator.previous_page}}">Anterior</a>
-			{% endif %}
-		</span>
-	{% else %}
-		<span class="previous">Anterior</span>
-	{% endif %}
-		<span class="page_number ">Página {{paginator.page}} de {{paginator.total_pages}}</span>
-	{% if paginator.next_page %}
-		<a href="/page{{paginator.next_page}}" class="next ">Próxima</a>
-	{% else %}
-		<span class="next ">Próxima</span>
-	{% endif %}
+    <p>I'm kinda starting over, if you're interested in my old posts written in portuguese you should check out <a href="/blog">here</a></p>
+  </article>
 </section>
+
