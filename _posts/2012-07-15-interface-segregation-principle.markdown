@@ -12,19 +12,19 @@ tags:
   slug: oop
 ---
 
-Não menos importante que qualquer um dos princípios, o ISP, ou princípio de Segregação de Interface, preza uma abordagem bem simples ao seu código. Ele preza que um cliente não deve ser forçado a depender de contratos que ele não utilizará.  
-Seguindo o ISP nós teremos contratos de classes mais coesas. Em outras palavras, não criaremos contratos gordos que alguma classe que precise implementá-lo, não deixe de implementá-lo por completo.  
-Particularmente eu evitaria um contrato gordo de todas as formas possíveis, devido ao smell que ele traz. MAS em alguns casos ele possa ser necessário e não trazer mal algum. Não sei se já notaram, mas alguns Frameworks possuem contratos monstruosos, e até que funcionam bem.
+NÃ£o menos importante que qualquer um dos princÃ­pios, o ISP, ou princÃ­pio de SegregaÃ§Ã£o de Interface, preza uma abordagem bem simples ao seu cÃ³digo. Ele preza que um cliente nÃ£o deve ser forÃ§ado a depender de contratos que ele nÃ£o utilizarÃ¡.  
+Seguindo o ISP nÃ³s teremos contratos de classes mais coesas. Em outras palavras, nÃ£o criaremos contratos gordos que alguma classe que precise implementÃ¡-lo, nÃ£o deixe de implementÃ¡-lo por completo.  
+Particularmente eu evitaria um contrato gordo de todas as formas possÃ­veis, devido ao smell que ele traz. MAS em alguns casos ele possa ser necessÃ¡rio e nÃ£o trazer mal algum. NÃ£o sei se jÃ¡ notaram, mas alguns Frameworks possuem contratos monstruosos, e atÃ© que funcionam bem.
 
 
 <img alt="Control room" src="/images/control-room.jpg" class="post_img" />
 
 
-## O código
+## O cÃ³digo
 
-Eu nunca vi e nem espero ver um exemplo tão cretino como esse, mas foi algo que pensei para não ter que demonstrar aqui exemplos que podem encontrar em outros lugares. Para verem por outro ângulo :-|
+Eu nunca vi e nem espero ver um exemplo tÃ£o cretino como esse, mas foi algo que pensei para nÃ£o ter que demonstrar aqui exemplos que podem encontrar em outros lugares. Para verem por outro Ã¢ngulo :-|
 
-### O sacrilégio
+### O sacrilÃ©gio
 
 <pre name="code" class="c-sharp">
 	public interface IBaseRepository&lt;TEnt&gt;
@@ -47,7 +47,7 @@ Eu nunca vi e nem espero ver um exemplo tão cretino como esse, mas foi algo que
     }
 </pre>
 
-A maioria de nossos repositórios poderão salvar e remover uma entidade do tipo especificado. Mas digamos que para uma particular entidade isso não é uma realidade, digamos que para a entidade Produto, não seja possível remove-lo.
+A maioria de nossos repositÃ³rios poderÃ£o salvar e remover uma entidade do tipo especificado. Mas digamos que para uma particular entidade isso nÃ£o Ã© uma realidade, digamos que para a entidade Produto, nÃ£o seja possÃ­vel remove-lo.
 
 <pre name="code" class="c-sharp">
 	public interface IProdutoRepository : IBaseRepository&lt;Produto&gt;
@@ -63,11 +63,11 @@ A maioria de nossos repositórios poderão salvar e remover uma entidade do tipo
     }
 </pre>
 
-Essa é a maneira mais simples de se identificar a violação do ISP, "<strong style="color:#069;">thrown new</strong> NotImplementedException();". Se eu não posso fazer isso, não deveria estar aí, certo?
+Essa Ã© a maneira mais simples de se identificar a violaÃ§Ã£o do ISP, "<strong style="color:#069;">thrown new</strong> NotImplementedException();". Se eu nÃ£o posso fazer isso, nÃ£o deveria estar aÃ­, certo?
 
 ### Emagrecendo o contrato
 
-Não pense que o IBaseRepository deixará de existir, ele só implementará os dois contratos que obtivermos desse refactoring. Tendo em mente que ele não deixará de existir para as outras implementações que faziam bom uso dele, vamos ajustar a situação para que o repositório de Produto deixe de ferir o princípio.
+NÃ£o pense que o IBaseRepository deixarÃ¡ de existir, ele sÃ³ implementarÃ¡ os dois contratos que obtivermos desse refactoring. Tendo em mente que ele nÃ£o deixarÃ¡ de existir para as outras implementaÃ§Ãµes que faziam bom uso dele, vamos ajustar a situaÃ§Ã£o para que o repositÃ³rio de Produto deixe de ferir o princÃ­pio.
 
 <pre name="code" class="c-sharp">
 	public interface IPersistenciaRepository&lt;TEnt&gt;
@@ -97,9 +97,9 @@ Não pense que o IBaseRepository deixará de existir, ele só implementará os d
     }
 </pre>
 
-Dessa forma temos um contrato para o repositório de Produto que só o obriga a implementar o que ele realmente precisa. Além disso, mantemos a forma original do nosso repositório base, ou seja, não afetará quem o implementava de maneira correta.
+Dessa forma temos um contrato para o repositÃ³rio de Produto que sÃ³ o obriga a implementar o que ele realmente precisa. AlÃ©m disso, mantemos a forma original do nosso repositÃ³rio base, ou seja, nÃ£o afetarÃ¡ quem o implementava de maneira correta.
 
-Tenha em mente que esse exemplo é meramente ilustrativo, e não condiz com o design que eu faria na vida real ~*esquivando de possíveis julgamentos*~ Tente absorver apenas a ideia por trás do exemplo.
+Tenha em mente que esse exemplo Ã© meramente ilustrativo, e nÃ£o condiz com o design que eu faria na vida real ~*esquivando de possÃ­veis julgamentos*~ Tente absorver apenas a ideia por trÃ¡s do exemplo.
 
 Logo eu posto um projeto com todos os exemplos.  
 Tenham um bom dia :-D

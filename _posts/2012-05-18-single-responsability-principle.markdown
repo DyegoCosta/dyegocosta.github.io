@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: 'Single Responsability Principle'
 category: OOP
