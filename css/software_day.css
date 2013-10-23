@@ -49,7 +49,7 @@ aside.contact_fixed {
 
 section#comments {
 	margin:15px auto 0px;
-	width: 900px;
+	max-width: 100%;
 }
 
 @media screen and (max-width: 480px) {
