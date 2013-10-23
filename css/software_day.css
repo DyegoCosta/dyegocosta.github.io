@@ -58,6 +58,10 @@ section#comments {
 		display: none;
 	}
 
+  #all_tags {
+    max-width:100%;
+  }
+
 	header.main h1, header.main h1 a, header.main h1 a:visited, header.main h1 a:hover {
 		font-size: 1.2em;
 	}
@@ -101,6 +105,10 @@ section#comments {
 	aside.contact_fixed a.soc-rss {
 		background-color:rgba(246, 168, 88, .7);
 	}
+
+  img {
+    max-width:95%;
+  }
 
 	 Home page 	
 
