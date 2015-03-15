@@ -1,8 +1,0 @@
-pygments: true
-markdown: rdiscount
-permalink: /blog/:title/
-paginate: 5
-comments :
-  provider : disqus  
-  disqus :
-    short_name : dyegocosta

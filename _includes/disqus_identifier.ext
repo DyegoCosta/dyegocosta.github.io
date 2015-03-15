@@ -1,3 +1,0 @@
-{% capture id_prefix %}{% if post %}post{% else %}page{% endif %}{% endcapture %}
-{% capture id %}{{ id_prefix }}{{ id_prefix.url | replace:'/','' | replace:'blog','' | replace:'-','' | downcase }}{% endcapture %}
-{{ {{ id_prefix }}.url }}
