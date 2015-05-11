@@ -25,14 +25,13 @@ h2 {
 
 .content {
   text-align: center;
-  width: 400px;
+  width: 405px;
   max-width: 100%;
   margin: 6% auto 0;
 }
 
 .contact {
   font-size: 1.1em;
-  text-transform: lowercase;
 }
 
 .contact p {
