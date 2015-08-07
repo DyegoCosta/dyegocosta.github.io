@@ -61,3 +61,9 @@ body {
 .contact li a {
   text-decoration: none;
 }
+
+@media only screen and (max-width : 480px) {
+  .page {
+    background-image: url(/assets/nyan_cat_phone.jpg);
+  }
+}
